@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import NavHeader from './template/common/NavHeader';
-import Footer from './template/common/Footer';
+import NavHeader from './app/template/common/NavHeader';
+import Footer from './app/template/common/Footer';
 //import './App.scss';
 import './assets/css/common.scss'
 
