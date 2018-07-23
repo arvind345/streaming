@@ -1048,7 +1048,6 @@ h6,
 .d-block {
   display: block !important
 }
-
 .d-table {
   display: table !important
 }
@@ -1067,6 +1066,9 @@ h6,
 
 .d-inline-flex {
   display: inline-flex !important
+}
+.d-desktop-block{
+  display: block !important;
 }
 
 @media (min-width: 576px) {
@@ -1096,6 +1098,9 @@ h6,
   }
   .d-sm-inline-flex {
     display: inline-flex !important
+  }
+  .d-desktop-block{
+    display: none !important;
   }
 }
 
