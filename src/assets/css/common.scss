@@ -1603,6 +1603,15 @@ body {
 }
 
 /*home page*/
+.card-wrapper{
+  margin-bottom: 30px;
+}
+.card-header{
+  font-size: 14px;
+  font-family: $title-font;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 .card-slider{
   white-space: nowrap;
   overflow-x: scroll;
@@ -1617,13 +1626,39 @@ body {
   width:125px;
   height:125px;
 }
+.card-sm-img{
+  height: 78px;
+  width: 100%;
+  position:relative;
+  display: block;
+}
+.img-center img{
+  position:absolute;
+  left: 0px;
+  right: 0px;
+  top:0px;
+  bottom: 0px;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.img-top img{
+  position:absolute;
+  left: 0px;
+  right: 0px;
+  top:0px;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
 .card-div img{
   max-width:100%;
   max-height: 100%;
   border-radius: 3px 3px 0px 0px;
 }
+
 .card-bottom{
-  margin: 10px 5px 10px 5px;
+  margin: 7px 5px 7px 5px;
 }
 .card-title{
   font-weight: 600;
@@ -1636,6 +1671,17 @@ body {
   font-size: 10px;
   color:var(--charcoal);
 }
-.card-slider .card-div:last-child{
-  margin-right:0px !important;
+/*large card*/
+.lg-card{
+  width: 210px;
+  height: 256px;
+}
+.card-lg-img{
+  height: 209px;
+  width: 100%;
+  position:relative;
+  display: block;
+}
+.card-slider .lg-card:last-child{
+  margin-right: 0.5rem !important;
 }
