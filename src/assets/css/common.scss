@@ -159,15 +159,22 @@ h6,
   margin-right: auto;
   margin-left: auto
 }
+
 @media (min-width: 576px) {
   .container {
-    max-width: 540px
+    max-width: 540px;
+    padding-right: 8px !important;
+    padding-left: 8px !important;
+  }
+  .row {
+    margin-right: -8px !important;
+    margin-left: -8px !important;
   }
 }
 
 @media (min-width: 768px) {
   .container {
-    max-width: 720px
+    max-width: 720px;
   }
 }
 
@@ -1560,35 +1567,7 @@ button:focus,
   box-shadow: none
 }
 
-@media (max-width: 575.98px) {
-  body {
-    font-size: 18px
-  }
-}
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-  body {
-    font-size: 18px
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  body {
-    font-size: 19px
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  body {
-    font-size: 20px
-  }
-}
-
-@media (min-width: 1200px) {
-  body {
-    font-size: 20px
-  }
-}
 body {
   color: var(--greyish-brown);
   background-color: var(--bg-light-grey);
@@ -1604,7 +1583,7 @@ body {
 
 /*home page*/
 .card-wrapper{
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .card-header{
   font-size: 14px;
@@ -1615,15 +1594,17 @@ body {
 .card-slider{
   white-space: nowrap;
   overflow-x: scroll;
+  margin-top: 10px;
 }
 .card-div{
   display: inline-block;
   border-radius: 3px;
   background-color: var(--white);
   box-shadow: 0 1px 4px 0 rgba(0,0,0,0.12);
+  vertical-align: top;
 }
 .sm-card{
-  width:125px;
+  width:150px;
   height:125px;
 }
 .card-sm-img{
@@ -1659,6 +1640,7 @@ body {
 
 .card-bottom{
   margin: 7px 5px 7px 5px;
+  white-space: normal;
 }
 .card-title{
   font-weight: 600;
@@ -1667,7 +1649,7 @@ body {
   text-transform: uppercase;
 }
 .card-subtitle{
-  font-weight: 600;
+  font-weight: 400;
   font-size: 10px;
   color:var(--charcoal);
 }
@@ -1684,4 +1666,47 @@ body {
 }
 .card-slider .lg-card:last-child{
   margin-right: 0.5rem !important;
+}
+
+
+@media (max-width: 319px) {
+  body {
+    font-size: 18px
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+  body {
+    font-size: 18px
+  }
+  .card-wrapper{
+    margin-right: -8px;
+  }
+  .container {
+    max-width: 540px;
+    padding-right: 8px !important;
+    padding-left: 8px !important;
+  }
+  .row {
+    margin-right: -8px !important;
+    margin-left: -8px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    font-size: 19px
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body {
+    font-size: 20px
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 20px
+  }
 }
