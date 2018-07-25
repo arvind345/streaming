@@ -1580,8 +1580,56 @@ body {
 .full-height {
   height: 100%
 }
-
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0px;
+}
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0px;
+}
+.bg-charcoal{
+  background: var(--charcoal);
+}
+.text-center{
+  text-align: center;
+}
 /*home page*/
+.home-banner{
+  position: relative;
+}
+.home-search{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top:0px;
+  bottom: 0px;
+  margin: auto;
+  text-align: center;
+  height:100px;
+}
+.home-search-input{
+  width: 90%;
+  background: var(--white);
+  height: 45px;
+  padding: 9px 15px;
+  text-align: center;
+  color: var(--black);
+  font-family: $title-font;
+  font-weight: 700;
+  border-radius: 4px;
+  margin: auto;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+.home-search-title{
+  font-family: $title-font;
+  font-size: 1em;
+  color: var(--white);
+  font-weight: 700;
+}
 .card-wrapper{
   margin-bottom: 40px;
 }
@@ -1602,6 +1650,7 @@ body {
   background-color: var(--white);
   box-shadow: 0 1px 4px 0 rgba(0,0,0,0.12);
   vertical-align: top;
+  width:100%;
 }
 .sm-card{
   width:150px;
@@ -1640,19 +1689,24 @@ body {
 }
 
 .card-bottom{
-  margin: 7px 5px 7px 5px;
+  margin: 6px 5px 7px 5px;
   white-space: normal;
 }
 .card-title{
   font-weight: 600;
-  font-size: 12px;
+  /*font-size: 12px;*/
+  font-size: 0.67em;
   color:var(--dark-grey);
   text-transform: uppercase;
+  line-height: 15px;
 }
 .card-subtitle{
   font-weight: 400;
-  font-size: 10px;
+  /*font-size: 10px;*/
+  font-size: 0.55em;
   color:var(--charcoal);
+  line-height: 15px;
+  margin-top: 3px;
 }
 /*large card*/
 .lg-card{
@@ -1660,7 +1714,7 @@ body {
   height: 256px;
 }
 .card-lg-img{
-  height: 209px;
+  height: 210px;
   width: 100%;
   position:relative;
   display: block;
@@ -1668,17 +1722,152 @@ body {
 .card-slider .lg-card:last-child{
   margin-right: 0.5rem !important;
 }
-
-
+/*channel card*/
+.channel-wrapper{
+  margin-top: 10px;
+}
+.channel-card{
+  min-height: 125px;
+  max-height: 125px;
+  margin-bottom: 15px;
+  padding: 10px 5px;
+}
+.card-channel-logo{
+  height: 62px;
+  margin: 0px auto;
+  max-width: 100%;
+  display: block;
+  position: relative;
+}
+.card-channel-logo img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.card-channel-text{
+  margin-top: 13px;
+}
+.card-view-all{
+  color: var(--coral);
+  text-transform: uppercase;
+  float:right;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+/*footer start*/
+.footer{
+  background: var(--charcoal);
+  color: #d9d9d9;
+  font-size: 0.7em;
+  font-weight: 400;
+  line-height: 24px;
+}
+.footer hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid  #5d5d5b;
+}
+.footer-title{
+  font-family: $title-font;
+  font-size: 12px;
+  color: var(--white);
+  line-height: 9px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.footer-sm-txt{
+  color: #9b9b9b;
+  font-size: 10px;
+  line-height: 12px;
+}
+.new1 .lg-card{
+  width: 100%;
+  margin-bottom: 15px;
+}
+/*footer end*/
 @media (max-width: 319px) {
   body {
-    font-size: 18px
+    font-size: 14px
   }
 }
 
 @media (min-width: 320px) and (max-width: 767.98px) {
   body {
     font-size: 18px
+  }
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12,
+  .col,
+  .col-auto,
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12,
+  .col-sm,
+  .col-sm-auto,
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12,
+  .col-md,
+  .col-md-auto,
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12,
+  .col-lg,
+  .col-lg-auto,
+  .col-xl-1,
+  .col-xl-2,
+  .col-xl-3,
+  .col-xl-4,
+  .col-xl-5,
+  .col-xl-6,
+  .col-xl-7,
+  .col-xl-8,
+  .col-xl-9,
+  .col-xl-10,
+  .col-xl-11,
+  .col-xl-12,
+  .col-xl,
+  .col-xl-auto {
+    padding-right: 8px;
+    padding-left: 8px
   }
   .card-wrapper{
     margin-right: -8px;
