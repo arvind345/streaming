@@ -1580,8 +1580,56 @@ body {
 .full-height {
   height: 100%
 }
-
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0px;
+}
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0px;
+}
+.bg-charcoal{
+  background: var(--charcoal);
+}
+.text-center{
+  text-align: center;
+}
 /*home page*/
+.home-banner{
+  position: relative;
+}
+.home-search{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top:0px;
+  bottom: 0px;
+  margin: auto;
+  text-align: center;
+  height:100px;
+}
+.home-search-input{
+  width: 90%;
+  background: var(--white);
+  height: 45px;
+  padding: 9px 15px;
+  text-align: center;
+  color: var(--black);
+  font-family: $title-font;
+  font-weight: 700;
+  border-radius: 4px;
+  margin: auto;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+.home-search-title{
+  font-family: $title-font;
+  font-size: 1em;
+  color: var(--white);
+  font-weight: 700;
+}
 .card-wrapper{
   margin-bottom: 40px;
 }
@@ -1604,6 +1652,7 @@ body {
   box-shadow: 0 1px 4px 0 rgba(0,0,0,0.12);
   vertical-align: top;
   margin-left: 1px;
+  width:100%;
 }
 .sm-card{
   width:150px;
@@ -1650,6 +1699,7 @@ body {
   font-size: 12px;
   color:var(--dark-grey);
   text-transform: uppercase;
+  line-height: 15px;
 }
 .card-subtitle{
   font-weight: 400;
@@ -1671,9 +1721,73 @@ body {
   margin-right: 0.5rem !important;
 }
 
+/*channel card*/
+.channel-wrapper{
+  margin-top: 10px;
+}
+.channel-card{
+  min-height: 125px;
+  max-height: 125px;
+  margin-bottom: 15px;
+  padding: 10px 5px;
+}
+.card-channel-logo{
+  height: 62px;
+  margin: 0px auto;
+  max-width: 100%;
+  display: block;
+  position: relative;
+}
+.card-channel-logo img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.card-channel-text{
+  margin-top: 13px;
+}
+.card-view-all{
+  color: var(--coral);
+  text-transform: uppercase;
+  float:right;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+/*footer start*/
+.footer{
+  background: var(--charcoal);
+  color: #d9d9d9;
+  font-size: 0.7em;
+  font-weight: 400;
+  line-height: 24px;
+}
+.footer hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid  #5d5d5b;
+}
+.footer-title{
+  font-family: $title-font;
+  font-size: 12px;
+  color: var(--white);
+  line-height: 9px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.footer-sm-txt{
+  color: #9b9b9b;
+  font-size: 10px;
+  line-height: 12px;
+}
+.new1 .lg-card{
+  width: 100%;
+  margin-bottom: 15px;
+}
+/*footer end*/
 @media (max-width: 319px) {
   body {
-    font-size: 18px
+    font-size: 14px
   }
 }
 
@@ -1766,3 +1880,4 @@ body {
     height: 191px;
   }
 }
+
