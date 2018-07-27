@@ -42,3 +42,107 @@
     margin: 0 0 3px;
     font-weight: 600;
 }
+.detail-panel-row{
+    background:#f7f7f7;
+    border-radius: 3px;
+    padding: 11px 8px;
+    color: var(--charcoal);
+    box-shadow: 0px 1px 2px 0px #1e00001f;
+    margin-bottom: 9px;
+}
+.detail-panel-title{
+    font-size: 10px;
+    font-weight: 500;
+}
+.d-episodes{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--coral);
+
+}
+.spacer{
+    font-weight: 400;
+    padding: 0px 2px;
+}
+.coral-arrow {
+    width: 0px;
+    height: 0px;
+    border-top: 16px solid var(--coral);
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    display: inline-block;
+    margin-left: 3px;
+    margin-top: 3px;
+
+}
+.expanded .coral-arrow{
+    border-bottom: 16px solid var(--coral);
+    border-top:0px;
+}
+.detail-panel-info{
+    font-size: 10px;
+    color: var(--charcoal);
+    line-height: 13px;
+    margin-top: 8px;
+}
+.panel-filter-head{
+    background: #f2f2f2;
+    box-shadow: 0px 1px 4px 0px #34000012;
+    padding: 10px 6px;
+}
+.fltrs{
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--charcoal);
+    margin-right: 15px;
+}
+.fltr-tab{
+    border:1px solid var(--charcoal);
+    color: var(--charcoal);
+    padding: 5px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 10px;
+    border-radius: 3px;
+    font-weight: 500;
+    margin-right: 8px;
+    display: inline-block;
+}
+.fltr-tab.active{
+    background:var(--charcoal);
+    color: var(--white);
+}
+.panel-filter-info-row{
+    position: relative;
+}
+.panel-filter-strip{
+    /* width: 20px; */
+    background: #6baf1f;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.71;
+    font-weight: 700;
+    float: left;
+    padding: 5px 2px;
+    writing-mode: vertical-rl;
+    -webkit-transform: rotate(180deg);
+}
+.panel-chnl-wrp{
+    white-space: nowrap;
+    overflow-x: scroll;
+    margin-top: 10px;
+    padding-bottom: 8px;
+}
+.panel-chnl{
+    width: 30px;
+    height: 30px;
+    margin-right: 18px;
+    display: inline-block;
+}
+.panel-chnl img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
