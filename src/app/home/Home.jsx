@@ -7,8 +7,6 @@ class Home extends Component {
                     <img className="w-100" src="https://www.91-cdn.com/upcomingg-img/banners/banner_images/000/000/006/original/Upcoming-movies-V1.jpg?1530705594" />
                 </div>
                 <div className="container homepage">
-
-
                             <div className="home-tab"></div>
                             <div className="">
                                 <div className="card-wrapper">
