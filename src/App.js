@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavHeader from './app/common/NavHeader';
 import Footer from './app/common/Footer';
+import Login from './app/common/Login';
 import Home from './app/home/Home';
 import Details from './app/detailPage/detail';
 
@@ -19,6 +20,7 @@ class App extends Component {
 
                     <Route path='/' exact component={Home} />
                     <Route path='/detail'  component={Details} />
+                    <Route path='/login'  component={Login} />
                 </Switch>
                 <Footer/>
             </div>
