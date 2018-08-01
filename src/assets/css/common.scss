@@ -148,6 +148,17 @@ h6,
 .h6 {
   font-size: 1rem
 }
+.flex-1{flex:1}
+.flex-2{flex:2}
+.flex-3{flex:3}
+.flex-4{flex:4}
+.flex-5{flex:5}
+.flex-6{flex:6}
+.flex-7{flex:7}
+.flex-8{flex:8}
+.flex-9{flex:9}
+.flex-10{flex:10}
+
 .img-fluid {
   max-width: 100%;
   height: auto
@@ -159,6 +170,35 @@ h6,
   margin-right: auto;
   margin-left: auto
 }
+.page-wrap
+{
+  margin-top: 49px;
+}
+/* navbar  */
+.navbar
+{
+  background: var(--bg-dark-grey);
+  height: 49px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  display: flex;
+}
+.nav-span
+{
+  height: 30px;
+  width: 30px;
+  display: block;
+  padding: 9px;
+}
+.logo{
+  color: #ffffff;
+  font-size: 16px;
+  display: block;
+  padding: 10px;
+}
+/* end navbar */
 
 @media (min-width: 576px) {
   .container {
@@ -1606,6 +1646,8 @@ body {
 /*home page*/
 .home-banner{
   position: relative;
+  height: 250px;
+  background: #000;
 }
 .home-search{
   position: absolute;

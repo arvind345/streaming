@@ -17,7 +17,6 @@ class App extends Component {
             <div>
                 <NavHeader/>
                 <Switch>
-
                     <Route path='/' exact component={Home} />
                     <Route path='/detail'  component={Details} />
                     <Route path='/login'  component={Login} />
