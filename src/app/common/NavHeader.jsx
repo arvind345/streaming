@@ -51,7 +51,6 @@ class NavHeader extends Component {
                     </div>
                     <div className="m-nvabar-box">
                         <ul className="m-navbar pl-3 pr-2 pb-1 m-0">
-                            <li><a href="#" onclick="closeNav()">x</a> </li>
                             <li><a href="#"> Latest Movies/Tv Shows <img className="rotaterightImage m-nvabar-arrow" src={arrowIcn} /></a></li>
                             <li><a href="#">TV Shows <img className="rotaterightImage m-nvabar-arrow" src={arrowIcn} /></a></li>
                             <li><a href="#">Events <img className="rotaterightImage m-nvabar-arrow" src={arrowIcn} /></a></li>

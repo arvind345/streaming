@@ -6,7 +6,7 @@ import Home from './app/home/Home';
 import Details from './app/detailPage/detail';
 
 //import './App.scss';
-import './assets/css/common.css';
+import './assets/css/common.scss';
 import {BrowserRouter,  Route, Switch } from 'react-router-dom';
 
 
