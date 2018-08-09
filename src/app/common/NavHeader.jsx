@@ -43,6 +43,7 @@ class NavHeader extends Component {
                     </span>
                 </nav>
                 <div id="m-menu" className="m-menu">
+                    <div className="sidenav">
                     <div className="m-menu-head row">
                         <div className="col-2"><img src={userIcn} /> </div>
                         <div className="col-8 pt-1 navBar_mobileview text-uppercase">User Login</div>
@@ -63,6 +64,7 @@ class NavHeader extends Component {
                             <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
+                </div>
                     <div className="overlay_menu"></div>
                 </div>
 
