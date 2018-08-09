@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_Menu_single_Level" transform="translate(-16.000000, -12.000000)">
+            <g id="Menu">
+                <g id="User-Login">
+                    <g id="Group-6">
+                        <g id="Group-3" transform="translate(16.000000, 12.000000)">
+                            <circle id="Oval-2" fill="#FFFFFF" cx="12" cy="12" r="12"></circle>
+                            <g id="if_user_216498" transform="translate(8.000000, 6.000000)" fill="#999999" fill-rule="nonzero">
+                                <path d="M7.33333333,3.52941176 C7.33333333,2.55458824 6.96,1.67223529 6.35733333,1.03411765 C5.754,0.395294118 4.92066667,0 4,0 C3.07933333,0 2.246,0.395294118 1.64266667,1.03411765 C1.04,1.67223529 0.666666667,2.55458824 0.666666667,3.52941176 C0.666666667,4.50423529 1.04,5.38658824 1.64266667,6.02470588 C2.246,6.66352941 3.07933333,7.05882353 4,7.05882353 C4.92066667,7.05882353 5.754,6.66352941 6.35733333,6.02470588 C6.96,5.38658824 7.33333333,4.50423529 7.33333333,3.52941176 Z" id="Shape"></path>
+                                <path d="M0,10.5882353 C0,11.2941176 1.5,12 4,12 C6.34533333,12 8,11.2941176 8,10.5882353 C8,9.17647059 6.43066667,7.76470588 4,7.76470588 C1.5,7.76470588 0,9.17647059 0,10.5882353 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
