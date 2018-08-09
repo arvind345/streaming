@@ -10,9 +10,14 @@ import $ from "jquery";
 
 class NavHeader extends Component {
     componentDidMount(){
-        $( document ).ready(function(){
-            console.log('sdfsdf')
-        });
+        $(document).ready(function(){
+            $('#navicon').click(function(){
+                $('.m-menu').addClass('active');
+            });
+            $('.overlay_menu').click(function(){
+                $('.m-menu').removeClass('active');
+            })
+        })
     }
 
 
@@ -26,7 +31,7 @@ class NavHeader extends Component {
                 <NavLink to="/" className="button">Home</NavLink> |
                 <NavLink to="/detail" className="button"> Detail Page</NavLink>*/}
                     <span className="nav-span ml-1 flex-1">
-                         <img src={navicon}  onclick="openNav()" />
+                         <img src={navicon}  onclick="openNav()" id="navicon" />
                     </span>
                     <span className="logo flex-9">StreamA2Z</span>
 
@@ -58,7 +63,9 @@ class NavHeader extends Component {
                             <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
+                    <div className="overlay_menu"></div>
                 </div>
+
         </div>
 
         );
