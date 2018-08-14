@@ -30,18 +30,38 @@ class NavHeader extends Component {
 
                 <NavLink to="/" className="button">Home</NavLink> |
                 <NavLink to="/detail" className="button"> Detail Page</NavLink>*/}
-                    <span className="nav-span ml-1 flex-1">
-                         <img src={navicon}  onclick="openNav()" id="navicon" />
-                    </span>
-                    <span className="logo flex-9">StreamA2Z</span>
+                    <div className="container m-d-flex">
+                        <span className="nav-span ml-1 flex-1">
+                             <img src={navicon}  onclick="openNav()" id="navicon" />
+                        </span>
+                        <span className="logo flex-9">StreamA2Z</span>
 
-                    <span className="nav-span flex-1">
-                         <img src={bellIcn} width="30" />
-                    </span>
-                    <span className="nav-span flex-1">
-                         <img src={searchIcn} width="30"  />
-                    </span>
+                        <span className="nav-span flex-1">
+                             <img src={bellIcn} width="30" />
+                        </span>
+                        <span className="nav-span flex-1">
+                             <img src={searchIcn} width="30"  />
+                        </span>
+                    </div>
+                    <div className="d-nav-items m-m-flex">
+                        <span className="logo flex-9">StreamA2Z</span>
+                        <div className="dsk-navbar">
+                            <ul className="dsk-navbar-nav text-uppercase">
+                                <li className="item-nav"><a className="nav-link" href="#">Latest Movies/Tv Shows</a></li>
+                                <li className="item-nav"><a className="nav-link" href="#">Movies</a></li>
+                                <li className="item-nav"><a className="nav-link" href="#">Shows</a></li>
+                                <li className="item-nav"><a className="nav-link" href="#">Langue</a></li>
+                                <li className="item-nav"><a className="nav-link" href="#">More</a></li>
+                            </ul>
+                            <form className="orm-inline">
+                                <div className="input-group">
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </nav>
+
                 <div id="m-menu" className="m-menu">
                     <div className="sidenav">
                     <div className="m-menu-head row">
