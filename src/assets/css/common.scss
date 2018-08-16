@@ -186,6 +186,9 @@ h6,
   -webkit-transform: rotate(270deg);
   transform: rotate(270deg);
 }
+d-flex{
+  display: flex;
+}
 
 /* navbar  */
 .navbar
@@ -2014,6 +2017,18 @@ body {
   font-size: 12px;
   font-weight: 600;
   margin-top: 10px;
+}
+.btn-bg-pink {
+  width: 100%;
+  border-radius: 3px !important;
+  background-color: #fde1e1 !important;
+  border: solid 1px var(--coral) !important;
+  font-family: Dosis;
+  font-size: 0.79em !important;
+  font-weight: bold !important;
+  color: var(--coral) !important;
+  padding: 12px 12px;
+  text-transform: uppercase;
 }
 /*footer start*/
 .footer{

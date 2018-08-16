@@ -73,13 +73,14 @@ class Details extends Component {
                         <div className="">
                             <span className="details-subtitle text-uppercase">KUMKUM BHAGYA LATEST EPISODES - SEASON 1</span>
                             <div className="detail-latest-wrap">
-                                <div className="detail-panel-row expanded">
+                                <div className="detail-panel-row active">
                                     <div className="detail-panel-title">
                                         <span>
                                             <span className="d-episodes"> E 392 </span><span className="spacer">|</span>00:29:23 Mins<span className="spacer">|</span>06 June
                                         </span>
                                         <div className="coral-arrow pull-right"></div>
                                     </div>
+                                    <div className="detail-panel-info-wrap">
                                     <div className="detail-panel-info">
                                         <p>Ishqbaaaz is a Hindi drama aired on StarPlus. The story is about three brothers - Shivaay, Omkara and Rudra -- who share an unbreakable bond despite their dysfunctional family. Watch all the latest episodes of Ishqbaaaz on Hotstar.</p>
                                     </div>
@@ -111,12 +112,108 @@ class Details extends Component {
                                         </div>
                                     </div>
                                 </div>
+                                </div>
+                                <div className="detail-panel-row">
+                                    <div className="detail-panel-title">
+                                        <span>
+                                            <span className="d-episodes"> E 392 </span><span className="spacer">|</span>00:29:23 Mins<span className="spacer">|</span>06 June
+                                        </span>
+                                        <div className="coral-arrow pull-right"></div>
+                                    </div>
+                                    <div className="detail-panel-info-wrap">
+                                        <div className="detail-panel-info">
+                                            <p>Ishqbaaaz is a Hindi drama aired on StarPlus. The story is about three brothers - Shivaay, Omkara and Rudra -- who share an unbreakable bond despite their dysfunctional family. Watch all the latest episodes of Ishqbaaaz on Hotstar.</p>
+                                        </div>
+                                        <div className="panel-filters">
+                                            <div className="panel-filter-head">
+                                                <span className="fltrs">Filters :</span>
+                                                <span className="fltr-tab active">Best Price</span>
+                                                <span className="fltr-tab">SD</span>
+                                                <span className="fltr-tab">HD</span>
+                                                <span className="fltr-tab">4K</span>
+                                            </div>
+                                            <div className="panel-filter-info">
+                                                <div className="panel-filter-info-row">
+                                                    <div className="panel-filter-strip">Stream</div>
+                                                    <div className="panel-chnl-wrp">
+                                                        <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
+                                                        <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
+                                                        <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
+                                                        <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
+                                                        <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
+                                                        <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
+                                                        <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
+                                                        <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
+
+
+                                                    </div>
+                                                    <div className="clearfix"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         {/* End card wrapper */}
                     </div>
+                    <div className="btn btn-bg-pink w-100 mb-2">VIEW ALL EPISODES</div>
                 </div>
                 {/*latest episode end*/}
+                {/*watch now start*/}
+                <div className="container">
+                    <div className="card-component padd">
+                        <div className=""><span className="details-subtitle text-uppercase">Watch Now</span>
+                            <div className="detail-latest-wrap">
+                                <div className="detail-panel-row active">
+                                    <div className="detail-panel-info-wrap">
+                                        <div className="panel-filters">
+                                            <div className="panel-filter-head"><span
+                                                className="fltrs">Filters :</span><span className="fltr-tab active">Best Price</span><span
+                                                className="fltr-tab">SD</span><span className="fltr-tab">HD</span><span
+                                                className="fltr-tab">4K</span></div>
+                                            <div className="panel-filter-info">
+                                                <div className="panel-filter-info-row">
+                                                    <div className="panel-filter-strip">Stream</div>
+                                                    <div className="panel-chnl-wrp">
+                                                        <div className="panel-chnl"><img
+                                                            src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                        </div>
+                                                        <div className="panel-chnl"><img
+                                                            src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                        </div>
+                                                        <div className="panel-chnl"><img
+                                                            src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                        </div>
+                                                        <div className="panel-chnl"><img
+                                                            src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                        </div>
+                                                        <div className="panel-chnl"><img
+                                                            src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                        </div>
+                                                        <div className="panel-chnl"><img
+                                                            src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                        </div>
+                                                        <div className="panel-chnl"><img
+                                                            src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                        </div>
+                                                        <div className="panel-chnl"><img
+                                                            src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                        </div>
+                                                    </div>
+                                                    <div className="clearfix"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="btn btn-bg-pink w-100 mb-2">VIEW ALL EPISODES</div>
+                </div>
+                {/*watch now end*/}
+
 
 
             </div>
