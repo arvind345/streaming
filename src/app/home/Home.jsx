@@ -44,8 +44,8 @@ class Home extends Component {
                 <div className="container homepage">
                             <div className="home-tab"></div>
                             <div className="no-m-card-component card-component padd pos-relative" >
-                                <div className="slider-arrow-left" onClick={this.slideLeft}><img src={sliderArrow} className="rotateImage" /> </div>
-                                <div className="slider-arrow-right" onClick={this.slideRight}><img src={sliderArrow} /> </div>
+                                <div className="slider-arrow-left m-m-flex" onClick={this.slideLeft}><img src={sliderArrow} className="rotateImage" /> </div>
+                                <div className="slider-arrow-right m-m-flex" onClick={this.slideRight}><img src={sliderArrow} /> </div>
                                 <div className="card-wrapper" id="slide-1">
                                     <div className="card-header mt-2">Geners</div>
                                     <div className="card-slider">
