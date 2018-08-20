@@ -56,7 +56,7 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-                                                <div className="btn btn-outline-coral d-desktop-inblock">View Details</div>
+                                                
                                             </div>
                                         </div>
                                         <div className="card-div sm-card mr-2">
@@ -66,7 +66,7 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-                                                <div className="btn btn-outline-coral d-desktop-inblock">View Details</div>
+                                                
                                             </div>
                                         </div>
                                         <div className="card-div sm-card mr-2">
@@ -76,7 +76,7 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-                                                <div className="btn btn-outline-coral d-desktop-inblock">View Details</div>
+                                                
                                             </div>
                                         </div>
                                         <div className="card-div sm-card mr-2">
@@ -86,7 +86,7 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-                                                <div className="btn btn-outline-coral d-desktop-inblock">View Details</div>
+                                                
                                             </div>
                                         </div>
                                         <div className="card-div sm-card mr-2">
@@ -96,7 +96,7 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-                                                <div className="btn btn-outline-coral d-desktop-inblock">View Details</div>
+                                                
                                             </div>
                                         </div>
                                         <div className="card-div sm-card mr-2">
@@ -106,7 +106,37 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-                                                <div className="btn btn-outline-coral d-desktop-inblock">View Details</div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div className="card-div sm-card mr-2">
+                                            <a href="#" className="card-sm-img img-top">
+                                                <img src="http://via.placeholder.com/210x105"/>
+                                            </a>
+                                            <div className="card-bottom">
+                                                <div className="card-title">Drama</div>
+                                                <div className="card-subtitle">196 Shows, 1161 Movies</div>
+
+                                            </div>
+                                        </div>
+                                        <div className="card-div sm-card mr-2">
+                                            <a href="#" className="card-sm-img img-top">
+                                                <img src="http://via.placeholder.com/210x105"/>
+                                            </a>
+                                            <div className="card-bottom">
+                                                <div className="card-title">Drama</div>
+                                                <div className="card-subtitle">196 Shows, 1161 Movies</div>
+
+                                            </div>
+                                        </div>
+                                        <div className="card-div sm-card mr-2">
+                                            <a href="#" className="card-sm-img img-top">
+                                                <img src="http://via.placeholder.com/210x105"/>
+                                            </a>
+                                            <div className="card-bottom">
+                                                <div className="card-title">Drama</div>
+                                                <div className="card-subtitle">196 Shows, 1161 Movies</div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -116,6 +146,36 @@ class Home extends Component {
                                 <div className="card-wrapper">
                                     <div className="card-header mt-2">Popular TV Shows</div>
                                     <div className="card-slider">
+                                        <div className="card-div lg-card mr-3">
+                                            <a href="#" className="card-lg-img img-top">
+                                                <img src="http://via.placeholder.com/280x250"/>
+                                            </a>
+                                            <div className="card-bottom">
+                                                <div className="card-title">Drama</div>
+                                                <div className="card-subtitle">196 Shows, 1161 Movies</div>
+                                                <div className="btn btn-outline-coral d-desktop-inblock">Watch Now</div>
+                                            </div>
+                                        </div>
+                                        <div className="card-div lg-card mr-3">
+                                            <a href="#" className="card-lg-img img-top">
+                                                <img src="http://via.placeholder.com/280x250"/>
+                                            </a>
+                                            <div className="card-bottom">
+                                                <div className="card-title">Drama</div>
+                                                <div className="card-subtitle">196 Shows, 1161 Movies</div>
+                                                <div className="btn btn-outline-coral d-desktop-inblock">Watch Now</div>
+                                            </div>
+                                        </div>
+                                        <div className="card-div lg-card mr-3">
+                                            <a href="#" className="card-lg-img img-top">
+                                                <img src="http://via.placeholder.com/280x250"/>
+                                            </a>
+                                            <div className="card-bottom">
+                                                <div className="card-title">Drama</div>
+                                                <div className="card-subtitle">196 Shows, 1161 Movies</div>
+                                                <div className="btn btn-outline-coral d-desktop-inblock">Watch Now</div>
+                                            </div>
+                                        </div>
                                         <div className="card-div lg-card mr-3">
                                             <a href="#" className="card-lg-img img-top">
                                                 <img src="http://via.placeholder.com/280x250"/>
@@ -192,7 +252,7 @@ class Home extends Component {
                                     <div className="card-channel-text">
                                         <div className="card-title">Star Plus</div>
                                         <div className="card-subtitle">91 Shows</div>
-                                        <div className="btn btn-outline-coral d-desktop-inblock">View Details</div>
+                                        
                                     </div>
                                 </div>
                                 <div className="card-div channel-card mr-2">
@@ -202,7 +262,7 @@ class Home extends Component {
                                     <div className="card-channel-text">
                                         <div className="card-title">Star Plus</div>
                                         <div className="card-subtitle">91 Shows</div>
-                                        <div className="btn btn-outline-coral d-desktop-inblock">View Details</div>
+                                        
                                     </div>
                                 </div>
                                 <div className="card-div channel-card mr-2">
@@ -212,7 +272,7 @@ class Home extends Component {
                                     <div className="card-channel-text">
                                         <div className="card-title">Star Plus</div>
                                         <div className="card-subtitle">91 Shows</div>
-                                        <div className="btn btn-outline-coral d-desktop-inblock">View Details</div>
+                                        
                                     </div>
                                 </div>
                                 <div className="card-div channel-card mr-2">
@@ -222,7 +282,7 @@ class Home extends Component {
                                     <div className="card-channel-text">
                                         <div className="card-title">Star Plus</div>
                                         <div className="card-subtitle">91 Shows</div>
-                                        <div className="btn btn-outline-coral d-desktop-inblock">View Details</div>
+                                        
                                     </div>
                                 </div>
                                 <div className="card-div channel-card mr-2">
@@ -232,7 +292,7 @@ class Home extends Component {
                                     <div className="card-channel-text">
                                         <div className="card-title">Star Plus</div>
                                         <div className="card-subtitle">91 Shows</div>
-                                        <div className="btn btn-outline-coral d-desktop-inblock">View Details</div>
+                                        
                                     </div>
                                 </div>
                                 <div className="card-div channel-card mr-2">
@@ -242,7 +302,47 @@ class Home extends Component {
                                     <div className="card-channel-text">
                                         <div className="card-title">Star Plus</div>
                                         <div className="card-subtitle">91 Shows</div>
-                                        <div className="btn btn-outline-coral d-desktop-inblock">View Details</div>
+                                        
+                                    </div>
+                                </div>
+                                <div className="card-div channel-card mr-2">
+                                    <div className="card-channel-logo img-center">
+                                        <img src="https://images.justwatch.com/icon/4233120/s100/hotstar" />
+                                    </div>
+                                    <div className="card-channel-text">
+                                        <div className="card-title">Star Plus</div>
+                                        <div className="card-subtitle">91 Shows</div>
+
+                                    </div>
+                                </div>
+                                <div className="card-div channel-card mr-2">
+                                    <div className="card-channel-logo img-center">
+                                        <img src="https://images.justwatch.com/icon/4233120/s100/hotstar" />
+                                    </div>
+                                    <div className="card-channel-text">
+                                        <div className="card-title">Star Plus</div>
+                                        <div className="card-subtitle">91 Shows</div>
+
+                                    </div>
+                                </div>
+                                <div className="card-div channel-card mr-2">
+                                    <div className="card-channel-logo img-center">
+                                        <img src="https://images.justwatch.com/icon/4233120/s100/hotstar" />
+                                    </div>
+                                    <div className="card-channel-text">
+                                        <div className="card-title">Star Plus</div>
+                                        <div className="card-subtitle">91 Shows</div>
+
+                                    </div>
+                                </div>
+                                <div className="card-div channel-card mr-2">
+                                    <div className="card-channel-logo img-center">
+                                        <img src="https://images.justwatch.com/icon/4233120/s100/hotstar" />
+                                    </div>
+                                    <div className="card-channel-text">
+                                        <div className="card-title">Star Plus</div>
+                                        <div className="card-subtitle">91 Shows</div>
+
                                     </div>
                                 </div>
 
@@ -263,7 +363,7 @@ class Home extends Component {
                                     <div className="card-channel-text">
                                         <div className="card-title">Star Plus</div>
                                         <div className="card-subtitle">91 Shows</div>
-                                        <div className="btn btn-outline-coral d-desktop-inblock">View Details</div>
+                                        
                                     </div>
                                 </div>
                             </div>

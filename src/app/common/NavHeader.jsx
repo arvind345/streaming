@@ -47,7 +47,10 @@ class NavHeader extends Component {
 
                     {/* autosuggest start*/}
                     <div className="m-search-screen">
-                        <div className="search-head"></div>
+                        <div className="search-head">
+                            <div className=""></div>
+                            <div className=""></div>
+                        </div>
                         <ul className="auto_sugg_ul">
                             <li>
                                 <a href="#">

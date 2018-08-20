@@ -2343,8 +2343,10 @@ body {
 }
 .search-head{
   display: flex;
-  padding: 8px 15px;
-  background: #3f3f3f;
+  padding: 15px 15px;
+  background: #fff;
+  box-shadow: 0px 2px 3px 0px #ccccccbf;
+  margin-bottom: 2px; ;
 }
 .auto_sugg_ul{
   margin: 0px 8px;
