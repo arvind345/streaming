@@ -44,6 +44,42 @@ class NavHeader extends Component {
                              <img src={searchIcn} width="30"  />
                         </span>
                     </div>
+
+                    {/* autosuggest start*/}
+                    <div className="m-search-screen">
+                        <div className="search-head"></div>
+                        <ul className="auto_sugg_ul">
+                            <li>
+                                <a href="#">
+                                    <div className="as-img"><img src="https://www.91-cdn.com/upcomingg-img/images/images/000/012/413/original/poster.jpg?1533817420" /></div>
+                                    <div className="as-list">
+                                        <div className="as-info1">Padmavat</div>
+                                        <div className="as-info2">2018 | Movie | Hindi</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div className="as-img"><img src="https://www.91-cdn.com/upcomingg-img/images/images/000/012/413/original/poster.jpg?1533817420" /></div>
+                                    <div className="as-list">
+                                        <div className="as-info1">Padmavat</div>
+                                        <div className="as-info2">2018 | Movie | Hindi</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div className="as-img"><img src="https://www.91-cdn.com/upcomingg-img/images/images/000/012/413/original/poster.jpg?1533817420" /></div>
+                                    <div className="as-list">
+                                        <div className="as-info1">Padmavat</div>
+                                        <div className="as-info2">2018 | Movie | Hindi</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    {/*autosuggest end*/}
+
                     <div className="d-nav-items m-m-flex container">
                         <span className="logo flex-9">StreamA2Z</span>
                         <div className="dsk-navbar">

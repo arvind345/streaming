@@ -117,7 +117,6 @@
     position: relative;
 }
 .panel-filter-strip{
-    /* width: 20px; */
     background: #6baf1f;
     color: #fff;
     text-transform: uppercase;
@@ -125,24 +124,38 @@
     letter-spacing: 0.71;
     font-weight: 700;
     float: left;
-    padding: 5px 2px;
+    padding: 10px 2px;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
     -webkit-transform: rotate(180deg);
 }
 .panel-chnl-wrp{
     white-space: nowrap;
     overflow-x: scroll;
-    margin-top: 10px;
-    padding-bottom: 8px;
+    padding-left: 8px;
 }
 .panel-chnl{
     width: 30px;
     height: 30px;
     margin-right: 18px;
     display: inline-block;
+    margin:17px 18px 17px 0px;
 }
 .panel-chnl img{
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px;
+}
+.panel-filter-info{
+    margin-bottom: -15px;
+}
+.detail-panel-info-wrap{
+    display: none;
+}
+.detail-panel-row.active .detail-panel-title .d-episodes{
+    color:#454545;
+}
+.detail-panel-row.active .detail-panel-info-wrap {
+    display: block;
 }
