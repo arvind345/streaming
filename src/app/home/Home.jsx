@@ -1,5 +1,36 @@
 import React, {Component} from 'react';
+import sliderArrow from '../../assets/images/slider-arrow.svg';
+import $ from "jquery";
 class Home extends Component {
+
+
+
+    slideRight() {
+
+        let card_Panel = $('.card-slider').width();
+        let item_card = $('.card-div').width() + 10;
+        let card_count = card_Panel/item_card;
+        let scroll_card = Math.floor(card_count) * item_card;
+
+        $('#slide-1').animate({
+
+            //scrollLeft: "+=230px"
+            scrollLeft: "+="+scroll_card+"px"
+        }, "fast");
+        console.log(scroll_card)
+    };
+    slideLeft() {
+        let card_Panel = $('.card-slider').width();
+        let item_card = $('.card-div').width() + 10;
+        let card_count = card_Panel/item_card;
+        let scroll_card = Math.floor(card_count) * item_card;
+
+        $('#slide-1').animate({
+            //scrollLeft: "+=230px"
+            scrollLeft: "-="+scroll_card+"px"
+        }, "fast");
+        console.log(scroll_card)
+    };
     render() {
         return (
             <div>
@@ -12,8 +43,10 @@ class Home extends Component {
                 </div>
                 <div className="container homepage">
                             <div className="home-tab"></div>
-                            <div className="no-m-card-component card-component padd">
-                                <div className="card-wrapper">
+                            <div className="no-m-card-component card-component padd pos-relative" >
+                                <div className="slider-arrow-left" onClick={this.slideLeft}><img src={sliderArrow} className="rotateImage" /> </div>
+                                <div className="slider-arrow-right" onClick={this.slideRight}><img src={sliderArrow} /> </div>
+                                <div className="card-wrapper" id="slide-1">
                                     <div className="card-header mt-2">Geners</div>
                                     <div className="card-slider">
                                         <div className="card-div sm-card mr-2">

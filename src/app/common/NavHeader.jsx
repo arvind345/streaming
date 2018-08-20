@@ -5,6 +5,7 @@ import bellIcn from '../../assets/images/bell-icn.svg';
 import searchIcn from '../../assets/images/search-icn.svg';
 import userIcn from '../../assets/images/user-icn.svg';
 import arrowIcn from '../../assets/images/arrow-icn.svg';
+import searchDIcn from '../../assets/images/search-d-icn.svg';
 import $ from "jquery";
 
 
@@ -32,7 +33,7 @@ class NavHeader extends Component {
                 <NavLink to="/detail" className="button"> Detail Page</NavLink>*/}
                     <div className="container m-d-flex">
                         <span className="nav-span ml-1 flex-1">
-                             <img src={navicon}  onclick="openNav()" id="navicon" />
+                             <img src={navicon}  id="navicon" />
                         </span>
                         <span className="logo flex-9">StreamA2Z</span>
 
@@ -43,19 +44,20 @@ class NavHeader extends Component {
                              <img src={searchIcn} width="30"  />
                         </span>
                     </div>
-                    <div className="d-nav-items m-m-flex">
+                    <div className="d-nav-items m-m-flex container">
                         <span className="logo flex-9">StreamA2Z</span>
                         <div className="dsk-navbar">
                             <ul className="dsk-navbar-nav text-uppercase">
-                                <li className="item-nav"><a className="nav-link" href="#">Latest Movies/Tv Shows</a></li>
-                                <li className="item-nav"><a className="nav-link" href="#">Movies</a></li>
-                                <li className="item-nav"><a className="nav-link" href="#">Shows</a></li>
-                                <li className="item-nav"><a className="nav-link" href="#">Langue</a></li>
-                                <li className="item-nav"><a className="nav-link" href="#">More</a></li>
+                                <li className="item-nav mr-2"><a className="nav-link" href="#">Latest Movies/Tv Shows</a></li>
+                                <li className="item-nav mr-2"><a className="nav-link" href="#">Movies</a></li>
+                                <li className="item-nav mr-2"><a className="nav-link" href="#">Shows</a></li>
+                                <li className="item-nav mr-2"><a className="nav-link" href="#">Langue</a></li>
+                                <li className="item-nav mr-2"><a className="nav-link" href="#">More</a></li>
                             </ul>
-                            <form className="orm-inline">
-                                <div className="input-group">
-
+                            <form className="form-inline">
+                                <div className="input-group search-widget">
+                                    <input type="text" placeholder="Search" required="" maxLength="512" className="SearchBox-input" />
+                                    <img src={searchDIcn} alt="search" className="search-icn-textbox" />
                                 </div>
                             </form>
                         </div>
