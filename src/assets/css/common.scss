@@ -2339,7 +2339,7 @@ body {
   top: 0;
   background: #eee;
   height: 100%;
-  display: block;
+  display: none;
 }
 .search-head{
   display: flex;
@@ -2347,6 +2347,85 @@ body {
   background: #fff;
   box-shadow: 0px 2px 3px 0px #ccccccbf;
   margin-bottom: 2px; ;
+}
+.home-tab {
+  display: flex;
+  box-shadow: 0px 0px 3px 0px #9999;
+  margin-top: 9px;
+  border-radius: 3px;
+}
+.tabblock {
+  flex: 1;
+  text-align: center;
+  color: #333;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Dosis';
+  border-right: 1px solid #99999947;
+  background: #fff;
+  padding: 10px 10px;
+}
+.home-tab .tabblock:last-child{
+  border-right: none;
+}
+.tabicn{
+  width: 20px;
+  height: 20px;
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 5px;
+}
+.tabicn svg {
+  width: 20px;
+  height: 20px;
+}
+.tabicn img{
+  width: 20px;
+  height: 20px;
+}
+.backbtn{
+  border: 2px solid #454545;
+  border-left: 0px;
+  border-bottom: 0px;
+  width: 13px;
+  height: 13px;
+  -webkit-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  margin-top: 7px;
+
+}
+.as-input{
+  font-size: 14px;
+  font-family: 'Dosis';
+  font-weight:500;
+  flex: 4;
+  margin-left: 10px;
+}
+.as-input:focus{
+  outline: none;
+}
+.crossbtn {
+  width: 17px;
+  height: 17px;
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  margin-top: 6px;
+}
+.crossbtn:after {
+  content: 'X';
+  font-style: normal;
+  color: #cccccc;
+  font-size: 10px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
 }
 .auto_sugg_ul{
   margin: 0px 8px;

@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import sliderArrow from '../../assets/images/slider-arrow.svg';
 import $ from "jquery";
+import tvIcn from '../../assets/images/tv-icn.svg'
+import movieIcn from '../../assets/images/movie-icn.svg'
 class Home extends Component {
 
 
@@ -42,7 +44,12 @@ class Home extends Component {
                     </div>
                 </div>
                 <div className="container homepage">
-                            <div className="home-tab"></div>
+                    <div className="home-tab">
+                        <div className="tabblock"><i className="tabicn"><img src={movieIcn} /></i>All Movies</div>
+                        <div className="tabblock">
+                            <i className="tabicn"><img src={tvIcn} /></i>
+                            ALL TV SHOWS</div>
+                    </div>
                             <div className="no-m-card-component card-component padd pos-relative" >
                                 <div className="slider-arrow-left m-m-flex" onClick={this.slideLeft}><img src={sliderArrow} className="rotateImage" /> </div>
                                 <div className="slider-arrow-right m-m-flex" onClick={this.slideRight}><img src={sliderArrow} /> </div>
