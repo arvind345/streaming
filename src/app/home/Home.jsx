@@ -44,7 +44,7 @@ class Home extends Component {
                     </div>
                 </div>
                 <div className="container homepage">
-                    <div className="home-tab">
+                    <div className="home-tab m-d-flex">
                         <div className="tabblock"><i className="tabicn"><img src={movieIcn} /></i>All Movies</div>
                         <div className="tabblock">
                             <i className="tabicn"><img src={tvIcn} /></i>
