@@ -160,7 +160,6 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-                                                <div className="btn btn-outline-coral d-desktop-inblock">Watch Now</div>
                                             </div>
                                         </div>
                                         <div className="card-div lg-card mr-3">
@@ -170,7 +169,6 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-                                                <div className="btn btn-outline-coral d-desktop-inblock">Watch Now</div>
                                             </div>
                                         </div>
                                         <div className="card-div lg-card mr-3">
@@ -180,7 +178,6 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-                                                <div className="btn btn-outline-coral d-desktop-inblock">Watch Now</div>
                                             </div>
                                         </div>
                                         <div className="card-div lg-card mr-3">
@@ -190,7 +187,6 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-                                                <div className="btn btn-outline-coral d-desktop-inblock">Watch Now</div>
                                             </div>
                                         </div>
                                         <div className="card-div lg-card mr-3">
@@ -200,7 +196,6 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-                                                <div className="btn btn-outline-coral d-desktop-inblock">Watch Now</div>
                                             </div>
                                         </div>
                                         <div className="card-div lg-card mr-3">
@@ -210,7 +205,6 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-                                                <div className="btn btn-outline-coral d-desktop-inblock">Watch Now</div>
                                             </div>
                                         </div>
                                         <div className="card-div lg-card mr-3">
@@ -220,7 +214,6 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-                                                <div className="btn btn-outline-coral d-desktop-inblock">Watch Now</div>
                                             </div>
                                         </div>
                                         <div className="card-div lg-card mr-3">
@@ -230,7 +223,6 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-                                                <div className="btn btn-outline-coral d-desktop-inblock">Watch Now</div>
                                             </div>
                                         </div>
                                         <div className="card-div lg-card mr-3">
@@ -240,7 +232,6 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-                                                <div className="btn btn-outline-coral d-desktop-inblock">Watch Now</div>
                                             </div>
                                         </div>
                                     </div>
