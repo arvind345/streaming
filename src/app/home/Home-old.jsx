@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import sliderArrow from '../../assets/images/slider-arrow.svg';
 import $ from "jquery";
-
 class Home extends Component {
     static propTypes = {};
     constructor(props) {
@@ -12,31 +11,6 @@ class Home extends Component {
         this.applySlidingStyllingId = ""
     }
 
-    slideRight() {
-        let card_Panel = $('.card-slider').width();
-        let item_card = $('.card-div').width() + 10;
-        let card_count = card_Panel/item_card;
-        let scroll_card = Math.floor(card_count) * item_card;
-
-        $('#slide-1').animate({
-
-            //scrollLeft: "+=230px"
-            scrollLeft: "+="+scroll_card+"px"
-        }, "fast");
-        console.log();
-    };
-    slideLeft() {
-        let card_Panel = $('.card-slider').width();
-        let item_card = $('.card-div').width() + 10;
-        let card_count = card_Panel/item_card;
-        let scroll_card = Math.floor(card_count) * item_card;
-
-        $('#slide-1').animate({
-            //scrollLeft: "+=230px"
-            scrollLeft: "-="+scroll_card+"px"
-        }, "fast");
-        console.log(scroll_card);
-    };
     render() {
         return (
             <div>
@@ -63,7 +37,7 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-
+                                                
                                             </div>
                                         </div>
                                         <div className="card-div sm-card mr-2">
@@ -73,7 +47,7 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-
+                                                
                                             </div>
                                         </div>
                                         <div className="card-div sm-card mr-2">
@@ -83,7 +57,7 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-
+                                                
                                             </div>
                                         </div>
                                         <div className="card-div sm-card mr-2">
@@ -93,7 +67,7 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-
+                                                
                                             </div>
                                         </div>
                                         <div className="card-div sm-card mr-2">
@@ -103,7 +77,7 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-
+                                                
                                             </div>
                                         </div>
                                         <div className="card-div sm-card mr-2">
@@ -113,7 +87,7 @@ class Home extends Component {
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
                                                 <div className="card-subtitle">196 Shows, 1161 Movies</div>
-
+                                                
                                             </div>
                                         </div>
                                         <div className="card-div sm-card mr-2">
@@ -250,7 +224,7 @@ class Home extends Component {
                                     <div className="card-channel-text">
                                         <div className="card-title">Star Plus</div>
                                         <div className="card-subtitle">91 Shows</div>
-
+                                        
                                     </div>
                                 </div>
                                 <div className="card-div channel-card mr-2">
@@ -260,7 +234,7 @@ class Home extends Component {
                                     <div className="card-channel-text">
                                         <div className="card-title">Star Plus</div>
                                         <div className="card-subtitle">91 Shows</div>
-
+                                        
                                     </div>
                                 </div>
                                 <div className="card-div channel-card mr-2">
@@ -270,7 +244,7 @@ class Home extends Component {
                                     <div className="card-channel-text">
                                         <div className="card-title">Star Plus</div>
                                         <div className="card-subtitle">91 Shows</div>
-
+                                        
                                     </div>
                                 </div>
                                 <div className="card-div channel-card mr-2">
@@ -280,7 +254,7 @@ class Home extends Component {
                                     <div className="card-channel-text">
                                         <div className="card-title">Star Plus</div>
                                         <div className="card-subtitle">91 Shows</div>
-
+                                        
                                     </div>
                                 </div>
                                 <div className="card-div channel-card mr-2">
@@ -290,7 +264,7 @@ class Home extends Component {
                                     <div className="card-channel-text">
                                         <div className="card-title">Star Plus</div>
                                         <div className="card-subtitle">91 Shows</div>
-
+                                        
                                     </div>
                                 </div>
                                 <div className="card-div channel-card mr-2">
@@ -300,7 +274,7 @@ class Home extends Component {
                                     <div className="card-channel-text">
                                         <div className="card-title">Star Plus</div>
                                         <div className="card-subtitle">91 Shows</div>
-
+                                        
                                     </div>
                                 </div>
                                 <div className="card-div channel-card mr-2">
@@ -361,7 +335,7 @@ class Home extends Component {
                                     <div className="card-channel-text">
                                         <div className="card-title">Star Plus</div>
                                         <div className="card-subtitle">91 Shows</div>
-
+                                        
                                     </div>
                                 </div>
                             </div>
