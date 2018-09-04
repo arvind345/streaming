@@ -48,8 +48,9 @@ class NavHeader extends Component {
                     {/* autosuggest start*/}
                     <div className="m-search-screen">
                         <div className="search-head">
-                            <div className=""></div>
-                            <div className=""></div>
+                            <div className="backbtn"></div>
+                            <input className="as-input" type="text" placeholder="Search Movies, Plays, Sports"/>
+                            <div className="crossbtn"></div>
                         </div>
                         <ul className="auto_sugg_ul">
                             <li>
