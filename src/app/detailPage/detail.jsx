@@ -6,20 +6,40 @@ class Details extends Component {
     render() {
         return (
             <div>
-               <div className="tab-box">
+                <div className="top-banner img-center d-desktop-block">
+                    <img className="img-fluid" src="https://www.91-cdn.com/upcomingg-img/images/images/000/005/681/original/ET00078520.jpg?1530060630" alt="" />
+                </div>
+            <div className="container">
+                <div className="row no-gutters ">
+                    <div className="col-lg-8 col-md-12 col-12 left-panel">
+               <div className="m-d-flex tab-box">
                    <span className="active">Info</span>
                    <span>Cast</span>
                    <span>Episode</span>
                </div>
                 <div className="container">
-                    <div className="card-component">
+                    <div className="card-component d-desktop-block">
                         <div className="padd">
+                            <div className="detail-left-wrp">
+                                <img src="https://www.91-cdn.com/upcomingg-img/tr:w-150/images/images/000/005/146/original/MV5BY2ZhYjc1ZjUtZGU2Ny00M2Y0LWEyNDMtZGQ0NzEyZDNkYTM3XkEyXkFqcGdeQXVyNzQ3NTY5MjE_._V1_QL50_SY1000_CR0_0_798_1000_AL_.jpg?1529661557" />
+                            </div>
+                            <div className="detail-ryt-wrp">
+                            <h1 className="details-title">Kumkum Bhagya</h1>
+                            <div className="detail-filter pb-1">
+                                <span>TV Show</span> | <span>Drama</span> | <span>Hinid</span> | <span>Zee TV</span> | <span>241 Episodes</span>
+                            </div>
+                            </div>
+                            <div className="clearfix"></div>
+                        </div>
+                    </div>
+                    <div className="card-component">
+                        <div className="padd d-mobile-block">
                             <h1 className="details-title">Kumkum Bhagya</h1>
                             <div className="detail-filter pb-1">
                                 <span>TV Show</span> | <span>Drama</span> | <span>Hinid</span> | <span>Zee TV</span> | <span>241 Episodes</span>
                             </div>
                         </div>
-                        <div className="top-banner img-center">
+                        <div className="top-banner img-center d-mobile-block">
                             <img className="img-fluid" src="https://www.91-cdn.com/upcomingg-img/images/images/000/005/681/original/ET00078520.jpg?1530060630" alt="" />
                         </div>
                         <div className="padd">
@@ -38,23 +58,23 @@ class Details extends Component {
                         <div className="card-wrapper">
                             <span className="details-subtitle text-uppercase">STREAMING ON</span>
                             <div className="card-slider">
-                                <div className="card-div sm-card mr-2">
-                                    <a href="#" className="card-sm-img img-top">
+                                <div className="card-div xs-card mr-2">
+                                    <a href="#" className="card-xs-img img-top">
                                         <img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/></a>
                                     <div className="card-bottom">
                                         <div className="card-title">Season 1</div>
                                         <div className="card-subtitle">18 Episodes</div>
                                     </div>
                                 </div>
-                                <div className="card-div sm-card mr-2">
-                                    <a href="#" className="card-sm-img img-top"><img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/></a>
+                                <div className="card-div xs-card mr-2">
+                                    <a href="#" className="card-xs-img img-top"><img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/></a>
                                     <div className="card-bottom">
                                         <div className="card-title">Season 2</div>
                                         <div className="card-subtitle">41 Episodes</div>
                                     </div>
                                 </div>
-                                <div className="card-div sm-card mr-2">
-                                    <a href="#" className="card-sm-img img-top"><img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/></a>
+                                <div className="card-div xs-card mr-2">
+                                    <a href="#" className="card-xs-img img-top"><img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/></a>
                                         <div className="card-bottom"><div className="card-title">Season 3</div>
                                         <div className="card-subtitle">11 Episodes</div>
                                     </div>
@@ -173,32 +193,38 @@ class Details extends Component {
                                                 className="fltr-tab">SD</span><span className="fltr-tab">HD</span><span
                                                 className="fltr-tab">4K</span></div>
                                             <div className="panel-filter-info">
-                                                <div className="panel-filter-info-row">
+                                                <div className="panel-filter-info-row main-panel-row">
                                                     <div className="panel-filter-strip">Stream</div>
-                                                    <div className="panel-chnl-wrp">
-                                                        <div className="panel-chnl"><img
-                                                            src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                    <div className="panel-chnl-wrp ">
+                                                        <div className="main-panel-outr">
+                                                            <div className="panel-chnl">
+                                                                <img src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                            </div>
+                                                            <div className="seasontitle">1 Season</div>
                                                         </div>
-                                                        <div className="panel-chnl"><img
-                                                            src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                        <div className="main-panel-outr">
+                                                            <div className="panel-chnl">
+                                                                <img src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                            </div>
+                                                            <div className="seasontitle">1 Season</div>
                                                         </div>
-                                                        <div className="panel-chnl"><img
-                                                            src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                        <div className="main-panel-outr">
+                                                            <div className="panel-chnl">
+                                                                <img src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                            </div>
+                                                            <div className="seasontitle">1 Season</div>
                                                         </div>
-                                                        <div className="panel-chnl"><img
-                                                            src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                        <div className="main-panel-outr">
+                                                            <div className="panel-chnl">
+                                                                <img src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                            </div>
+                                                            <div className="seasontitle">1 Season</div>
                                                         </div>
-                                                        <div className="panel-chnl"><img
-                                                            src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
-                                                        </div>
-                                                        <div className="panel-chnl"><img
-                                                            src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
-                                                        </div>
-                                                        <div className="panel-chnl"><img
-                                                            src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
-                                                        </div>
-                                                        <div className="panel-chnl"><img
-                                                            src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                        <div className="main-panel-outr">
+                                                            <div className="panel-chnl">
+                                                                <img src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                            </div>
+                                                            <div className="seasontitle">1 Season</div>
                                                         </div>
                                                     </div>
                                                     <div className="clearfix"></div>
@@ -213,9 +239,161 @@ class Details extends Component {
                     <div className="btn btn-bg-pink w-100 mb-2">VIEW ALL EPISODES</div>
                 </div>
                 {/*watch now end*/}
+                {/*cast start*/}
+                <div className="container">
+                    <div className="card-component padd">
+                        <span className="details-subtitle text-uppercase">KUMKUM BHAGYA - star cast</span>
+                        <div className="card-slider">
+                            <div className="avtar-wrap">
+                                <div className="avtar-img"><img src="https://www.91-cdn.com/upcomingg-img/tr:w-100,fo-auto/people/avatars/000/002/009/original/6gGDmr7qdTxUIx6fyljUpwIxxwd.jpg?1529396963" /></div>
+                                <div className="avtar-txt">Sriti Jha ranveer kapoor</div>
+                            </div>
+                            <div className="avtar-wrap">
+                                <div className="avtar-img"><img src="https://www.91-cdn.com/upcomingg-img/tr:w-100,fo-auto/people/avatars/000/002/010/original/xFVHMvDC8s4Ab2sLXrdVxMxZ33b.jpg?1529396963" /></div>
+                                <div className="avtar-txt">Sriti Jha ranveer kapoor</div>
+                            </div>
+                            <div className="avtar-wrap">
+                                <div className="avtar-img"><img src="https://www.91-cdn.com/upcomingg-img/tr:w-100,fo-auto/people/avatars/000/002/009/original/6gGDmr7qdTxUIx6fyljUpwIxxwd.jpg?1529396963" /></div>
+                                <div className="avtar-txt">Sriti Jha ranveer kapoor</div>
+                            </div>
+                            <div className="avtar-wrap">
+                                <div className="avtar-img"><img src="https://www.91-cdn.com/upcomingg-img/tr:w-100,fo-auto/people/avatars/000/002/010/original/xFVHMvDC8s4Ab2sLXrdVxMxZ33b.jpg?1529396963" /></div>
+                                <div className="avtar-txt">Sriti Jha ranveer kapoor</div>
+                            </div>
+                            <div className="avtar-wrap">
+                                <div className="avtar-img"><img src="https://www.91-cdn.com/upcomingg-img/tr:w-100,fo-auto/people/avatars/000/002/009/original/6gGDmr7qdTxUIx6fyljUpwIxxwd.jpg?1529396963" /></div>
+                                <div className="avtar-txt">Sriti Jha ranveer kapoor</div>
+                            </div>
+                            <div className="avtar-wrap">
+                                <div className="avtar-img"><img src="https://www.91-cdn.com/upcomingg-img/tr:w-100,fo-auto/people/avatars/000/002/010/original/xFVHMvDC8s4Ab2sLXrdVxMxZ33b.jpg?1529396963" /></div>
+                                <div className="avtar-txt">Sriti Jha ranveer kapoor</div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div className="card-component padd">
+                        <span className="details-subtitle text-uppercase">KUMKUM BHAGYA - star crew</span>
+                        <div className="card-slider">
+                            <div className="avtar-wrap">
+                                <div className="avtar-img"><img src="https://www.91-cdn.com/upcomingg-img/tr:w-100,fo-auto/people/avatars/000/002/009/original/6gGDmr7qdTxUIx6fyljUpwIxxwd.jpg?1529396963" /></div>
+                                <div className="avtar-txt">Sriti Jha ranveer kapoor</div>
+                                <div className="avtar-post">Director</div>
+                            </div>
+                            <div className="avtar-wrap">
+                                <div className="avtar-img"><img src="https://www.91-cdn.com/upcomingg-img/tr:w-100,fo-auto/people/avatars/000/002/010/original/xFVHMvDC8s4Ab2sLXrdVxMxZ33b.jpg?1529396963" /></div>
+                                <div className="avtar-txt">Sriti Jha ranveer kapoor</div>
+                                <div className="avtar-post">Asst. Director</div>
+                            </div>
+                            <div className="avtar-wrap">
+                                <div className="avtar-img"><img src="https://www.91-cdn.com/upcomingg-img/tr:w-100,fo-auto/people/avatars/000/002/009/original/6gGDmr7qdTxUIx6fyljUpwIxxwd.jpg?1529396963" /></div>
+                                <div className="avtar-txt">Sriti Jha ranveer kapoor</div>
+                                <div className="avtar-post">Asst. Director</div>
+                            </div>
+                            <div className="avtar-wrap">
+                                <div className="avtar-img"><img src="https://www.91-cdn.com/upcomingg-img/tr:w-100,fo-auto/people/avatars/000/002/010/original/xFVHMvDC8s4Ab2sLXrdVxMxZ33b.jpg?1529396963" /></div>
+                                <div className="avtar-txt">Sriti Jha ranveer kapoor</div>
+                                <div className="avtar-post">Asst. Director</div>
+                            </div>
+                            <div className="avtar-wrap">
+                                <div className="avtar-img"><img src="https://www.91-cdn.com/upcomingg-img/tr:w-100,fo-auto/people/avatars/000/002/009/original/6gGDmr7qdTxUIx6fyljUpwIxxwd.jpg?1529396963" /></div>
+                                <div className="avtar-txt">Sriti Jha ranveer kapoor</div>
+                                <div className="avtar-post">Asst. Director</div>
+                            </div>
+                            <div className="avtar-wrap">
+                                <div className="avtar-img"><img src="https://www.91-cdn.com/upcomingg-img/tr:w-100,fo-auto/people/avatars/000/002/010/original/xFVHMvDC8s4Ab2sLXrdVxMxZ33b.jpg?1529396963" /></div>
+                                <div className="avtar-txt">Sriti Jha ranveer kapoor</div>
+                                <div className="avtar-post">Music Director</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="btn btn-bg-pink w-100 mb-2">VIEW ALL CAST & CREW</div>
+                </div>
+                {/*cast end*/}
 
+               {/* popular tv shows*/}
+                <div className="container">
+                    <div className="no-m-card-component card-component padd">
+                <div className="card-wrapper">
+                    <div className="card-header mt-2">Popular Hindi TV Shows</div>
+                    <div className="card-slider">
+                        <div className="card-div lg-card mr-3"><a href="#" className="card-lg-img img-top"><img
+                            src="http://via.placeholder.com/280x250" /></a>
+                            <div className="card-bottom">
+                                <div className="card-title">Yeh Rishta Kya Kehlata Hai</div>
+                                <div className="card-subtitle">Since 2009</div>
+                            </div>
+                        </div>
+                        <div className="card-div lg-card mr-3"><a href="#" className="card-lg-img img-top"><img
+                            src="http://via.placeholder.com/280x250" /></a>
+                            <div className="card-bottom">
+                                <div className="card-title">Kumkum Bhagya</div>
+                                <div className="card-subtitle">Since 2009</div>
+                            </div>
+                        </div>
+                        <div className="card-div lg-card mr-3"><a href="#" className="card-lg-img img-top"><img
+                            src="http://via.placeholder.com/280x250" /></a>
+                            <div className="card-bottom">
+                                <div className="card-title">Yeh Rishta Kya Kehlata Hai</div>
+                                <div className="card-subtitle">Since 2009</div>
+                            </div>
+                        </div>
+                        <div className="card-div lg-card mr-3"><a href="#" className="card-lg-img img-top"><img
+                            src="http://via.placeholder.com/280x250" /></a>
+                            <div className="card-bottom">
+                                <div className="card-title">Yeh Rishta Kya Kehlata Hai</div>
+                                <div className="card-subtitle">Since 2009</div>
+                            </div>
+                        </div>
+                        <div className="card-div lg-card mr-3"><a href="#" className="card-lg-img img-top"><img
+                            src="http://via.placeholder.com/280x250" /></a>
+                            <div className="card-bottom">
+                                <div className="card-title">Yeh Rishta Kya Kehlata Hai</div>
+                                <div className="card-subtitle">196 Shows, 1161 Movies</div>
+                            </div>
+                        </div>
+                        <div className="card-div lg-card mr-3"><a href="#" className="card-lg-img img-top"><img
+                            src="http://via.placeholder.com/280x250" /></a>
+                            <div className="card-bottom">
+                                <div className="card-title">Yeh Rishta Kya Kehlata Hai</div>
+                                <div className="card-subtitle">Since 2009</div>
+                            </div>
+                        </div>
+                        <div className="card-div lg-card mr-3"><a href="#" className="card-lg-img img-top"><img
+                            src="http://via.placeholder.com/280x250" /></a>
+                            <div className="card-bottom">
+                                <div className="card-title">Yeh Rishta Kya Kehlata Hai</div>
+                                <div className="card-subtitle">Since 2009</div>
+                            </div>
+                        </div>
+                        <div className="card-div lg-card mr-3"><a href="#" className="card-lg-img img-top"><img
+                            src="http://via.placeholder.com/280x250" /></a>
+                            <div className="card-bottom">
+                                <div className="card-title">Yeh Rishta Kya Kehlata Hai</div>
+                                <div className="card-subtitle">Since 2009</div>
+                            </div>
+                        </div>
+                        <div className="card-div lg-card mr-3"><a href="#" className="card-lg-img img-top"><img
+                            src="http://via.placeholder.com/280x250" /></a>
+                            <div className="card-bottom">
+                                <div className="card-title">Yeh Rishta Kya Kehlata Hai</div>
+                                <div className="card-subtitle">Since 2009</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+               {/*end popular tv shows*/}
 
+                    </div>
+                    <div className="col-lg-4 col-md-12 col-12 right-panel">
+                       <div className="container">
+                        <div className="card-component">Right side</div>
+                       </div>
+                    </div>
+                </div>
+
+            </div>
             </div>
         );
     }

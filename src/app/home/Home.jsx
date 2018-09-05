@@ -58,7 +58,7 @@ class Home extends Component {
                                     <div className="card-slider">
                                         <div className="card-div sm-card mr-2">
                                             <a href="#" className="card-sm-img img-top">
-                                                <img src="http://via.placeholder.com/210x105"/>
+                                                <img src="http://via.placeholder.com/300x200"/>
                                             </a>
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
@@ -68,7 +68,7 @@ class Home extends Component {
                                         </div>
                                         <div className="card-div sm-card mr-2">
                                             <a href="#" className="card-sm-img img-top">
-                                                <img src="http://via.placeholder.com/210x105"/>
+                                                <img src="http://via.placeholder.com/300x200"/>
                                             </a>
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
@@ -78,7 +78,7 @@ class Home extends Component {
                                         </div>
                                         <div className="card-div sm-card mr-2">
                                             <a href="#" className="card-sm-img img-top">
-                                                <img src="http://via.placeholder.com/210x105"/>
+                                                <img src="http://via.placeholder.com/300x200"/>
                                             </a>
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
@@ -88,7 +88,7 @@ class Home extends Component {
                                         </div>
                                         <div className="card-div sm-card mr-2">
                                             <a href="#" className="card-sm-img img-top">
-                                                <img src="http://via.placeholder.com/210x105"/>
+                                                <img src="http://via.placeholder.com/300x200"/>
                                             </a>
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
@@ -98,7 +98,7 @@ class Home extends Component {
                                         </div>
                                         <div className="card-div sm-card mr-2">
                                             <a href="#" className="card-sm-img img-top">
-                                                <img src="http://via.placeholder.com/210x105"/>
+                                                <img src="http://via.placeholder.com/300x200"/>
                                             </a>
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
@@ -108,7 +108,7 @@ class Home extends Component {
                                         </div>
                                         <div className="card-div sm-card mr-2">
                                             <a href="#" className="card-sm-img img-top">
-                                                <img src="http://via.placeholder.com/210x105"/>
+                                                <img src="http://via.placeholder.com/300x200"/>
                                             </a>
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
@@ -118,7 +118,7 @@ class Home extends Component {
                                         </div>
                                         <div className="card-div sm-card mr-2">
                                             <a href="#" className="card-sm-img img-top">
-                                                <img src="http://via.placeholder.com/210x105"/>
+                                                <img src="http://via.placeholder.com/300x200"/>
                                             </a>
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
@@ -128,7 +128,7 @@ class Home extends Component {
                                         </div>
                                         <div className="card-div sm-card mr-2">
                                             <a href="#" className="card-sm-img img-top">
-                                                <img src="http://via.placeholder.com/210x105"/>
+                                                <img src="http://via.placeholder.com/300x200"/>
                                             </a>
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
@@ -138,7 +138,7 @@ class Home extends Component {
                                         </div>
                                         <div className="card-div sm-card mr-2">
                                             <a href="#" className="card-sm-img img-top">
-                                                <img src="http://via.placeholder.com/210x105"/>
+                                                <img src="http://via.placeholder.com/300x200"/>
                                             </a>
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
@@ -155,7 +155,7 @@ class Home extends Component {
                                     <div className="card-slider">
                                         <div className="card-div lg-card mr-3">
                                             <a href="#" className="card-lg-img img-top">
-                                                <img src="http://via.placeholder.com/280x250"/>
+                                                <img src="http://via.placeholder.com/350x350"/>
                                             </a>
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
@@ -164,7 +164,7 @@ class Home extends Component {
                                         </div>
                                         <div className="card-div lg-card mr-3">
                                             <a href="#" className="card-lg-img img-top">
-                                                <img src="http://via.placeholder.com/280x250"/>
+                                                <img src="http://via.placeholder.com/350x350"/>
                                             </a>
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
@@ -173,7 +173,7 @@ class Home extends Component {
                                         </div>
                                         <div className="card-div lg-card mr-3">
                                             <a href="#" className="card-lg-img img-top">
-                                                <img src="http://via.placeholder.com/280x250"/>
+                                                <img src="http://via.placeholder.com/350x350"/>
                                             </a>
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
@@ -182,7 +182,7 @@ class Home extends Component {
                                         </div>
                                         <div className="card-div lg-card mr-3">
                                             <a href="#" className="card-lg-img img-top">
-                                                <img src="http://via.placeholder.com/280x250"/>
+                                                <img src="http://via.placeholder.com/350x350"/>
                                             </a>
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
@@ -191,7 +191,7 @@ class Home extends Component {
                                         </div>
                                         <div className="card-div lg-card mr-3">
                                             <a href="#" className="card-lg-img img-top">
-                                                <img src="http://via.placeholder.com/280x250"/>
+                                                <img src="http://via.placeholder.com/350x350"/>
                                             </a>
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
@@ -200,7 +200,7 @@ class Home extends Component {
                                         </div>
                                         <div className="card-div lg-card mr-3">
                                             <a href="#" className="card-lg-img img-top">
-                                                <img src="http://via.placeholder.com/280x250"/>
+                                                <img src="http://via.placeholder.com/350x350"/>
                                             </a>
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
@@ -209,7 +209,7 @@ class Home extends Component {
                                         </div>
                                         <div className="card-div lg-card mr-3">
                                             <a href="#" className="card-lg-img img-top">
-                                                <img src="http://via.placeholder.com/280x250"/>
+                                                <img src="http://via.placeholder.com/350x350"/>
                                             </a>
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
@@ -218,7 +218,7 @@ class Home extends Component {
                                         </div>
                                         <div className="card-div lg-card mr-3">
                                             <a href="#" className="card-lg-img img-top">
-                                                <img src="http://via.placeholder.com/280x250"/>
+                                                <img src="http://via.placeholder.com/350x350"/>
                                             </a>
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
@@ -227,7 +227,7 @@ class Home extends Component {
                                         </div>
                                         <div className="card-div lg-card mr-3">
                                             <a href="#" className="card-lg-img img-top">
-                                                <img src="http://via.placeholder.com/280x250"/>
+                                                <img src="http://via.placeholder.com/350x350"/>
                                             </a>
                                             <div className="card-bottom">
                                                 <div className="card-title">Drama</div>
