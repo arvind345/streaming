@@ -210,6 +210,23 @@ d-flex {
   right: -15px;
   top: calc(50%); }
 
+
+.slick-arrow.slick-next, .slick-arrow.slick-next:hover
+{
+  background: url(../images/slider-arrow.svg);
+  width: 40px;
+  height: 40px;
+}
+
+.slick-arrow.slick-pre, .slick-arrow.slick-pre:hover
+{
+  background: url(../images/slider-arrow.svg);
+  width: 50px;
+  height: 50px;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
 /* navbar  */
 .navbar {
   background: var(--bg-dark-grey);
@@ -1661,6 +1678,7 @@ body {
   font-family: "Dosis", sans-serif;
   font-size: 1em;
   color: var(--white);
+<<<<<<< Updated upstream
   font-weight: 700; }
 
 .card-wrapper {
@@ -1668,6 +1686,13 @@ body {
   margin-right: -16px; }
 
 .card-header {
+  font-weight: 700;
+}
+.card-wrapper{
+  /*overflow: hidden;*/
+  margin-right: -8px;
+}
+.card-header{
   font-size: 14px;
   font-family: "Dosis", sans-serif;
   font-weight: 700;
@@ -2390,4 +2415,7 @@ body {
   }
 }
 
-/*# sourceMappingURL=common.css.map */
+.ant-carousel .slick-slide{
+  margin: 0 10px 0 0;
+}
+.slide-1{height: 200px}

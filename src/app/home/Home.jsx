@@ -1,41 +1,22 @@
 import React, {Component} from 'react';
 import sliderArrow from '../../assets/images/slider-arrow.svg';
 import $ from "jquery";
-import tvIcn from '../../assets/images/tv-icn.svg'
-import movieIcn from '../../assets/images/movie-icn.svg'
+import tvIcn from '../../assets/images/tv-icn.svg';
+import movieIcn from '../../assets/images/movie-icn.svg';
+import { DatePicker } from 'antd';
+import 'antd/dist/antd.css';
+import { Carousel } from 'antd';
+
 class Home extends Component {
 
 
-
-    slideRight() {
-
-        let card_Panel = $('.card-slider').width();
-        let item_card = $('.card-div').width() + 10;
-        let card_count = card_Panel/item_card;
-        let scroll_card = Math.floor(card_count) * item_card;
-
-        $('#slide-1').animate({
-
-            //scrollLeft: "+=230px"
-            scrollLeft: "+="+scroll_card+"px"
-        }, "fast");
-        console.log(scroll_card)
-    };
-    slideLeft() {
-        let card_Panel = $('.card-slider').width();
-        let item_card = $('.card-div').width() + 10;
-        let card_count = card_Panel/item_card;
-        let scroll_card = Math.floor(card_count) * item_card;
-
-        $('#slide-1').animate({
-            //scrollLeft: "+=230px"
-            scrollLeft: "-="+scroll_card+"px"
-        }, "fast");
-        console.log(scroll_card)
-    };
     render() {
         return (
             <div>
+                <Carousel slidesToShow={4} arrows={true} dots={false}>
+
+                </Carousel>
+
                 <div className="home-banner">
                     <img className="w-100" src="https://www.91-cdn.com/upcomingg-img/banners/banner_images/000/000/006/original/Upcoming-movies-V1.jpg?1530705594" />
                     <div className="home-search">
@@ -51,11 +32,9 @@ class Home extends Component {
                             ALL TV SHOWS</div>
                     </div>
                             <div className="no-m-card-component card-component padd pos-relative" >
-                                <div className="slider-arrow-left m-m-flex" onClick={this.slideLeft}><img src={sliderArrow} className="rotateImage" /> </div>
-                                <div className="slider-arrow-right m-m-flex" onClick={this.slideRight}><img src={sliderArrow} /> </div>
                                 <div className="card-wrapper" id="slide-1">
                                     <div className="card-header mt-2">Geners</div>
-                                    <div className="card-slider">
+                                        <Carousel className="card-slider slide-1" slidesToShow={4} arrows={true} dots={false}>
                                         <div className="card-div sm-card mr-2">
                                             <a href="#" className="card-sm-img img-top">
                                                 <img src="http://via.placeholder.com/300x200"/>
@@ -146,7 +125,8 @@ class Home extends Component {
 
                                             </div>
                                         </div>
-                                    </div>
+                                        </Carousel>
+
                                 </div>
                             </div>
                             <div className="no-m-card-component card-component padd">
