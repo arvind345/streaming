@@ -1816,6 +1816,15 @@ body {
   font-size: 12px;
   font-weight: 400;
   line-height: 20px; }
+.view-all {
+  color: var(--coral);
+  text-transform: uppercase;
+  float: right;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  font-family: 'Dosis';
+}
 
 .btn {
   display: inline-block;
@@ -1933,7 +1942,7 @@ body {
 
 .read-more {
   color: var(--pinkish-coral);
-  font-size: 12px; }
+  font-size: inherit; }
 
 /*Login/ Signup*/
 .btn-cross {
@@ -2252,8 +2261,8 @@ body {
     font-size: 18px; }
 
   .card-wrapper {
-    margin-bottom: 40px;
     margin-right: -8px; }
+
 
   .container {
     max-width: 540px;
@@ -2322,7 +2331,9 @@ body {
     border-radius: 0;
     padding: 0px;
     box-shadow: none; }
-
+  .homepage .card-wrapper {
+    margin-bottom: 40px;
+    margin-right: -8px; }
   .card-slider {
     overflow-x: scroll; }
 
