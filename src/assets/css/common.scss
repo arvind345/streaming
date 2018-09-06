@@ -218,7 +218,7 @@ d-flex {
   height: 40px;
 }
 
-.slick-arrow.slick-pre, .slick-arrow.slick-pre:hover
+.slick-arrow.slick-prev, .slick-arrow.slick-prev:hover
 {
   background: url(../images/slider-arrow.svg);
   width: 50px;
@@ -2417,4 +2417,4 @@ body {
 .ant-carousel .slick-slide{
   margin: 0 10px 0 0;
 }
-.slide-1{height: 200px}
+/*.slide-1{height: 200px}*/

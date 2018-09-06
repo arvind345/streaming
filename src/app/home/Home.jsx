@@ -32,9 +32,9 @@ class Home extends Component {
                             ALL TV SHOWS</div>
                     </div>
                             <div className="no-m-card-component card-component padd pos-relative" >
-                                <div className="card-wrapper" id="slide-1">
+                                <div className="card-wrapper no-overflow" id="slide-1">
                                     <div className="card-header mt-2">Geners</div>
-                                        <Carousel className="card-slider slide-1" slidesToShow={4} arrows={true} dots={false}>
+                                        <Carousel className="card-slider slide-1" slidesToShow={5} arrows={true} dots={false} infinite={false} >
                                         <div className="card-div sm-card mr-2">
                                             <a href="#" className="card-sm-img img-top">
                                                 <img src="http://via.placeholder.com/300x200"/>
@@ -125,6 +125,7 @@ class Home extends Component {
 
                                             </div>
                                         </div>
+                                            <div class="clearfix"></div>
                                         </Carousel>
 
                                 </div>
