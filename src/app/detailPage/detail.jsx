@@ -91,7 +91,7 @@ class Details extends Component {
 
                         {/*  card wrapper */}
                         <div className="">
-                            <span className="details-subtitle text-uppercase">KUMKUM BHAGYA LATEST EPISODES - SEASON 1</span>
+                            <span className="details-subtitle text-uppercase">KUMKUM BHAGYA LATEST EPISODES - SEASON 1</span><span className="view-all d-desktop-block">VIEW ALL EPISODES</span>
                             <div className="detail-latest-wrap">
                                 <div className="detail-panel-row active">
                                     <div className="detail-panel-title">
@@ -177,14 +177,14 @@ class Details extends Component {
                         </div>
                         {/* End card wrapper */}
                     </div>
-                    <div className="btn btn-bg-pink w-100 mb-2">VIEW ALL EPISODES</div>
+                    <div className="btn btn-bg-pink w-100 mb-2 d-mobile-block">VIEW ALL EPISODES</div>
                 </div>
                 {/*latest episode end*/}
                 {/*watch now start*/}
                 <div className="container">
                     <div className="card-component padd">
                         <div className=""><span className="details-subtitle text-uppercase">Watch Now</span>
-                            <div className="detail-latest-wrap">
+                            <div className="detail-latest-wrap watch-div">
                                 <div className="detail-panel-row active">
                                     <div className="detail-panel-info-wrap">
                                         <div className="panel-filters">
@@ -236,13 +236,14 @@ class Details extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="btn btn-bg-pink w-100 mb-2">VIEW ALL EPISODES</div>
+                    <div className="btn btn-bg-pink w-100 mb-2 d-mobile-block">VIEW ALL EPISODES</div>
                 </div>
                 {/*watch now end*/}
                 {/*cast start*/}
                 <div className="container">
                     <div className="card-component padd">
-                        <span className="details-subtitle text-uppercase">KUMKUM BHAGYA - star cast</span>
+                        <span className="details-subtitle text-uppercase">KUMKUM BHAGYA - star cast</span><span className="view-all d-desktop-block">VIEW FULL CAST </span>
+                        <div className="card-wrapper">
                         <div className="card-slider">
                             <div className="avtar-wrap">
                                 <div className="avtar-img"><img src="https://www.91-cdn.com/upcomingg-img/tr:w-100,fo-auto/people/avatars/000/002/009/original/6gGDmr7qdTxUIx6fyljUpwIxxwd.jpg?1529396963" /></div>
@@ -270,9 +271,11 @@ class Details extends Component {
                             </div>
                         </div>
                     </div>
+                    </div>
 
                     <div className="card-component padd">
-                        <span className="details-subtitle text-uppercase">KUMKUM BHAGYA - star crew</span>
+                        <span className="details-subtitle text-uppercase">KUMKUM BHAGYA - star crew</span><span className="view-all d-desktop-block">VIEW FULL CREW</span>
+                        <div className="card-wrapper">
                         <div className="card-slider">
                             <div className="avtar-wrap">
                                 <div className="avtar-img"><img src="https://www.91-cdn.com/upcomingg-img/tr:w-100,fo-auto/people/avatars/000/002/009/original/6gGDmr7qdTxUIx6fyljUpwIxxwd.jpg?1529396963" /></div>
@@ -306,7 +309,8 @@ class Details extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="btn btn-bg-pink w-100 mb-2">VIEW ALL CAST & CREW</div>
+                    </div>
+                    <div className="btn btn-bg-pink w-100 mb-2 d-mobile-block">VIEW ALL CAST & CREW</div>
                 </div>
                 {/*cast end*/}
 
