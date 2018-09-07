@@ -253,7 +253,43 @@ display: inline-block;
     display: block;
     overflow: hidden;
 }
-
+.right-img-box {
+    float: left;
+    width: 140px;
+}
+.right-img-box img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.right-info-box {
+    float: left;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+.right-box-title {
+    font-size: 18px;
+    display: block;
+    color: var(--charcoal);
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    max-width: 150px;
+    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: hidden;
+}
+span.cat-tag {
+    font-size: 12px;
+    color: #f45050;
+    background: #fde1e1;
+    padding: 0 5px 1px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    display: -webkit-inline-box;
+}
+.right-calander, .right-follower
+{
+    line-height: 20px;
+}
 @media (min-width: 320px) and (max-width: 991.98px) {
     .detail-filter {
         font-size: 10px;

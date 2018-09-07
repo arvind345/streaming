@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import '../../assets/css/detail.css';
+import folowers from '../../assets/images/followers.svg';
+import calander from '../../assets/images/calander.svg';
+import plus from '../../assets/images/plus.svg';
 
 
 class Details extends Component {
@@ -11,7 +14,7 @@ class Details extends Component {
                 </div>
             <div className="container">
                 <div className="row no-gutters ">
-                    <div className="col-lg-8 col-md-12 col-12 left-panel">
+            <div className="col-lg-8 col-md-12 col-12 left-panel">
                <div className="m-d-flex tab-box">
                    <span className="active">Info</span>
                    <span>Cast</span>
@@ -392,7 +395,58 @@ class Details extends Component {
                     </div>
                     <div className="col-lg-4 col-md-12 col-12 right-panel">
                        <div className="container">
-                        <div className="card-component">Right side</div>
+                        <div className="card-component">
+                            <div className="card-component-body pt-2 pb-1">
+                                <div className="col-7 d-block col-md-12">
+                                    <div className="font-weight-bold p-1"><img src={calander} className="pr-2" alt="" />19 September 2018</div>
+                                    <div className="p-1"><img src={folowers} className="pr-2" /> <span>154</span> Follower(s)</div>
+                                </div>
+                                <div className="pt-2 pb-2 pl-3 pr-3">
+                                    <button type="submit" id="LoginButton" className="btn btn-block btn-coral text-uppercase py-2">+ ADD TO WATCHLIST</button>
+                                </div>
+                            </div>
+                        </div>
+
+                       <div className="card-component p-3">
+                           <span className="overview-title font-weight-bold">PEOPLE WHO FOLLOWED THIS MOVIE ALSO FOLLOWED</span>
+                           <div className="card-div mt-2">
+                               <div className="right-img-box">
+                                   <img src="https://www.91-cdn.com/upcomingg-img/tr:w-150/images/images/000/005/146/original/MV5BY2ZhYjc1ZjUtZGU2Ny00M2Y0LWEyNDMtZGQ0NzEyZDNkYTM3XkEyXkFqcGdeQXVyNzQ3NTY5MjE_._V1_QL50_SY1000_CR0_0_798_1000_AL_.jpg?1529661557" />
+                               </div>
+                               <div className="right-info-box">
+                                   <span className="right-box-title">Kumkum Bhagya</span>
+                                   <span className="cat-tag mb-2 mt-1">Horror</span>
+                                   <div className="right-calander pt-2"><img src={calander} className="pr-2" />23 Oct</div>
+                                   <div className="right-follower"><img src={folowers} className="pr-2" />3500 Followers</div>
+                                   <div className="btn btn-outline-coral mt-2">+ Follow</div>
+                               </div>
+                           </div>
+                           <div className="card-div mt-2">
+                               <div className="right-img-box">
+                                   <img src="https://www.91-cdn.com/upcomingg-img/tr:w-150/images/images/000/005/146/original/MV5BY2ZhYjc1ZjUtZGU2Ny00M2Y0LWEyNDMtZGQ0NzEyZDNkYTM3XkEyXkFqcGdeQXVyNzQ3NTY5MjE_._V1_QL50_SY1000_CR0_0_798_1000_AL_.jpg?1529661557" />
+                               </div>
+                               <div className="right-info-box">
+                                   <span className="right-box-title">Kumkum Bhagya</span>
+                                   <span className="cat-tag mb-2 mt-1">Horror</span>
+                                   <div className="right-calander pt-2"><img src={calander} className="pr-2" />23 Oct</div>
+                                   <div className="right-follower"><img src={folowers} className="pr-2" />3500 Followers</div>
+                                   <div className="btn btn-outline-coral mt-2">&plus; Follow</div>
+                               </div>
+                           </div>
+                           <div className="card-div mt-2">
+                               <div className="right-img-box">
+                                   <img src="https://www.91-cdn.com/upcomingg-img/tr:w-150/images/images/000/005/146/original/MV5BY2ZhYjc1ZjUtZGU2Ny00M2Y0LWEyNDMtZGQ0NzEyZDNkYTM3XkEyXkFqcGdeQXVyNzQ3NTY5MjE_._V1_QL50_SY1000_CR0_0_798_1000_AL_.jpg?1529661557" />
+                               </div>
+                               <div className="right-info-box">
+                                   <span className="right-box-title">Kumkum Bhagya</span>
+                                   <span className="cat-tag mb-2 mt-1">Horror</span>
+                                   <div className="right-calander pt-2"><img src={calander} className="pr-2" />23 Oct</div>
+                                   <div className="right-follower"><img src={folowers} className="pr-2" />3500 Followers</div>
+                                   <div className="btn btn-outline-coral mt-2"><i className="plus-coral">+</i> Follow</div>
+                               </div>
+                           </div>
+                       </div>
+
                        </div>
                     </div>
                 </div>

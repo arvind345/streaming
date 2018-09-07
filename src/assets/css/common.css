@@ -55,7 +55,9 @@ a {
 a:hover {
     color: inherit;
     text-decoration: underline; }
-
+.font-weight-bold {
+    font-weight: 700 !important;
+}
 img {
     vertical-align: middle;
     border-style: none; }
@@ -1882,8 +1884,17 @@ body {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
-    margin-top: 10px; }
-
+    display: block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.btn-outline-coral:hover
+{
+    background-color: var(--coral);
+    border: 1px solid var(--coral);
+    color: #fff;
+}
 .btn-bg-pink {
     width: 100%;
     border-radius: 3px !important;
@@ -1935,7 +1946,11 @@ body {
     margin: 15px 0;
     border-radius: 3px;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12); }
-
+.card-component-body {
+    font-family: ProximaNova, "Lato", sans-serif;
+    font-size: 0.75em;
+    line-height: 1.33;
+}
 .top-banner {
     width: 100%;
     height: auto;
@@ -2094,7 +2109,9 @@ body {
     background-color: var(--coral);
     border-color: var(--coral);
     font-size: 0.75em; }
-
+.btn-coral:hover{
+    background-color: #e65e5e;
+}
 .btn:not(:disabled):not(.disabled) {
     cursor: pointer; }
 
