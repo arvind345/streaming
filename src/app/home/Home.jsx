@@ -14,9 +14,6 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <Carousel slidesToShow={4} arrows={true} dots={false}>
-
-                </Carousel>
 
                 <div className="home-banner">
                     <img className="w-100" src="https://www.91-cdn.com/upcomingg-img/banners/banner_images/000/000/006/original/Upcoming-movies-V1.jpg?1530705594" />
