@@ -14,9 +14,6 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <Carousel slidesToShow={4} arrows={true} dots={false}>
-
-                </Carousel>
 
                 <div className="home-banner">
                     <img className="w-100" src="https://www.91-cdn.com/upcomingg-img/banners/banner_images/000/000/006/original/Upcoming-movies-V1.jpg?1530705594" />
@@ -36,11 +33,7 @@ class Home extends Component {
                                 <div className="card-wrapper no-overflow" id="slide-1">
                                     <div className="card-header mt-2">Geners</div>
 
-                                        <Carousel className="card-slider slide-1" {...settings1}
-
-
-                                        >
-                                        <Carousel className="card-slider slide-1 slider variable-width" slidesToShow={5} slidesToScroll={5} arrows={true} dots={false} infinite={false} >
+                                        <Carousel className="card-slider slide-1" {...settings1}>
                                         <div className="card-div sm-card mr-2">
                                             <a href="#" className="card-sm-img img-top">
                                                 <img src="http://via.placeholder.com/300x200"/>

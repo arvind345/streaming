@@ -5,6 +5,7 @@ import Login from './app/common/Login';
 import Home from './app/home/Home';
 import Details from './app/detailPage/detail';
 import Filter from './app/listPage/Filter';
+import Cast from './app/detailPage/cast';
 
 //import './App.scss';
 import './assets/css/common.css';
@@ -22,6 +23,7 @@ class App extends Component {
                     <Route path='/detail'  component={Details} />
                     <Route path='/login'  component={Login} />
                     <Route path='/filter'  component={Filter} />
+                    <Route path='/cast'  component={Cast} />
                 </Switch>
                 <Footer/>
             </div>
