@@ -1683,7 +1683,9 @@ body {
 
 .card-wrapper {
     overflow: hidden;
-    margin-right: -16px !important; }
+    margin-right: -16px !important;
+    width: 100%;
+}
 .no-overflow{
     overflow: visible;
 }
@@ -1707,7 +1709,8 @@ body {
     white-space: nowrap;
     /*overflow-x: scroll;
     margin-top: 10px;*/
-    padding-bottom: 8px; }
+    padding-bottom: 8px;
+}
 
 .card-div {
     display: inline-block;
@@ -1720,7 +1723,7 @@ body {
 
 .sm-card {
     /* width: 23%;*/
-    width: 250px;
+    width: 209px;
     height: 225px; }
 
 .card-sm-img {
