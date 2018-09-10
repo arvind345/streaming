@@ -31,7 +31,8 @@ class NavHeader extends Component {
 
                 <NavLink to="/" className="button">Home</NavLink> |
                 <NavLink to="/detail" className="button"> Detail Page</NavLink>
-                <NavLink to="/cast" className="button"> Cast Page</NavLink>
+                <NavLink to="/cast" className="button"> Cast</NavLink>
+                 <NavLink to="/cast-detail" className="button"> Cast Detail</NavLink>
                     <div className="container m-d-flex">
                         <span className="nav-span ml-1 flex-1">
                              <img src={navicon}  id="navicon" />
