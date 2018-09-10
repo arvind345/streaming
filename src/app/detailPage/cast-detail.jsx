@@ -99,46 +99,19 @@ class CastDetail extends Component {
                                 <div className="card-component padd">
                                     <span className="details-subtitle text-uppercase"> Mrunal Thakur  BIO</span>
                                     <div className="cast-table-wrp">
-                                        <table className="cast-table" cellSpacing="5" cellPadding="5">
-                                            <tr>
-                                                <td className="trrow">
-                                                    <table width="100%">
-                                                        <tr>
-                                                            <td className="td1">Real Name</td>
-                                                            <td className="td2">Mrunal Thakur</td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                <td className="tdspacer"></td>
-                                                <td className="trrow">
-                                                    <table width="100%">
-                                                        <tr>
-                                                            <td className="td1">Weight</td>
-                                                            <td className="td2">50kg</td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
+                                        <table className="cast-table-list">
+                                            <tr className="trleft">
+                                                <td>Real Name</td>
+                                                <td><strong>Mrunal Thakur</strong></td>
                                             </tr>
-                                            <tr>
-                                                <td className="trrow">
-                                                    <table width="100%">
-                                                        <tr>
-                                                            <td className="td1">Figure Measurement 		</td>
-                                                            <td className="td2">32-28-35</td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                <td className="tdspacer"></td>
-                                                <td className="trrow">
-                                                    <table width="100%">
-                                                        <tr>
-                                                            <td className="td1">Real Name</td>
-                                                            <td className="td2">Mrunal Thakur</td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
+                                            <tr className="trright">
+                                                <td>Profession</td>
+                                                <td><strong>Actress</strong></td>
                                             </tr>
-
+                                            <tr className="trleft">
+                                                <td>Famous Role</td>
+                                                <td><strong>Bulbul (Kumkum Bhagya)</strong></td>
+                                            </tr>
                                         </table>
                                     </div>
                                 </div>
@@ -149,46 +122,27 @@ class CastDetail extends Component {
                                 <div className="card-component padd">
                                     <span className="details-subtitle text-uppercase"> Mrunal Thakur  - Physical Stats & More</span>
                                     <div className="cast-table-wrp">
-                                        <table className="cast-table" cellSpacing="5" cellPadding="5">
-                                            <tr>
-                                                <td className="trrow">
-                                                    <table width="100%">
-                                                        <tr>
-                                                            <td className="td1">Real Name</td>
-                                                            <td className="td2">Mrunal Thakur</td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                <td className="tdspacer"></td>
-                                                <td className="trrow">
-                                                    <table width="100%">
-                                                        <tr>
-                                                            <td className="td1">Weight</td>
-                                                            <td className="td2">50kg</td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
+                                        <table className="cast-table-list">
+                                            <tr className="trleft">
+                                                <td>Height</td>
+                                                <td><strong>165 cm | 5”5 inche</strong></td>
                                             </tr>
-                                            <tr>
-                                                <td className="trrow">
-                                                    <table width="100%">
-                                                        <tr>
-                                                            <td className="td1">Figure Measurement 		</td>
-                                                            <td className="td2">32-28-35</td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                <td className="tdspacer"></td>
-                                                <td className="trrow">
-                                                    <table width="100%">
-                                                        <tr>
-                                                            <td className="td1">Real Name</td>
-                                                            <td className="td2">Mrunal Thakur</td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
+                                            <tr className="trright">
+                                                <td>Weight</td>
+                                                <td><strong>52kg</strong></td>
                                             </tr>
-
+                                            <tr className="trleft">
+                                                <td>Figure Measurement</td>
+                                                <td><strong>32-28-35</strong></td>
+                                            </tr>
+                                            <tr className="trright">
+                                                <td>Eye color</td>
+                                                <td><strong>Black</strong></td>
+                                            </tr>
+                                            <tr className="trleft">
+                                                <td>Hair color</td>
+                                                <td><strong>Black</strong></td>
+                                            </tr>
                                         </table>
                                     </div>
                                 </div>
@@ -199,44 +153,42 @@ class CastDetail extends Component {
                                 <div className="card-component padd">
                                     <span className="details-subtitle text-uppercase"> Mrunal Thakur  - Other Details</span>
                                     <div className="cast-table-wrp">
-                                        <table className="cast-table" cellSpacing="5" cellPadding="5">
-                                            <tr>
-                                                <td className="trrow">
-                                                    <table width="100%">
-                                                        <tr>
-                                                            <td className="td1">Real Name</td>
-                                                            <td className="td2">Mrunal Thakur</td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                <td className="tdspacer"></td>
-                                                <td className="trrow">
-                                                    <table width="100%">
-                                                        <tr>
-                                                            <td className="td1">Weight</td>
-                                                            <td className="td2">50kg</td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
+                                        <table className="cast-table-list">
+                                            <tr className="trleft">
+                                                <td>Date of Birth</td>
+                                                <td><strong>01 August 1992</strong></td>
                                             </tr>
-                                            <tr>
-                                                <td className="trrow">
-                                                    <table width="100%">
-                                                        <tr>
-                                                            <td className="td1">Figure Measurement 		</td>
-                                                            <td className="td2">32-28-35</td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                <td className="tdspacer"></td>
-                                                <td className="trrow">
-                                                    <table width="100%">
-                                                        <tr>
-                                                            <td className="td1">Real Name</td>
-                                                            <td className="td2">Mrunal Thakur</td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
+                                            <tr className="trright">
+                                                <td>Age (as on 2018)</td>
+                                                <td><strong>26 years</strong></td>
+                                            </tr>
+                                            <tr className="trleft">
+                                                <td>Birth Place	</td>
+                                                <td><strong>Nagpur, Maharastra, India</strong></td>
+                                            </tr>
+                                            <tr className="trright">
+                                                <td>Sun Sign</td>
+                                                <td><strong>Leo</strong></td>
+                                            </tr>
+                                            <tr className="trleft">
+                                                <td>Nationality 			     </td>
+                                                <td><strong>Indian</strong></td>
+                                            </tr>
+                                            <tr className="trright">
+                                                <td>Home Town</td>
+                                                <td><strong>Nagpur, Maharastra, India</strong></td>
+                                            </tr>
+                                            <tr className="trleft">
+                                                <td>School</td>
+                                                <td><strong>Not Known</strong></td>
+                                            </tr>
+                                            <tr className="trright">
+                                                <td>College	</td>
+                                                <td><strong>K C College</strong></td>
+                                            </tr>
+                                            <tr className="trleft">
+                                                <td>Education Qualification</td>
+                                                <td><strong>B.Tech</strong></td>
                                             </tr>
 
                                         </table>
