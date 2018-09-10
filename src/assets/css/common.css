@@ -1744,19 +1744,21 @@ body {
     left: 0px;
     right: 0px;
     top: 0px;
-    bottom: 0px;
+    bottom: 0;
     margin: auto;
     max-width: 100%;
-    height: auto; }
+    max-height: 100%;}
 
 .img-top img {
     position: absolute;
     left: 0px;
     right: 0px;
     top: 0px;
+    bottom: 0;
     margin: auto;
     max-width: 100%;
-    max-height: 100%; }
+    max-height: 100%;
+}
 
 .card-div img {
     max-width: 100%;
@@ -1800,21 +1802,23 @@ body {
 
 .card-slider .lg-card:last-child {
     margin-right: 0.5rem !important; }
-.card-xs-img{
 
-}
 /*extra small card*/
 .xs-card {
     /*width: 21.5%;*/
     width:150px;
     height: 150px; }
-
-.card-xs-img {
+.xs-rs-card {
+    /*width: 21.5%;*/
+    width:146px;
+    height: 150px;
+}
+.card-xs-img, .card-rs-img{
     height: 88px;
     width: 100%;
     position: relative;
     display: block; }
-.card-xs-img img{
+.card-xs-img img, .card-rs-img img{
     width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
@@ -1874,7 +1878,10 @@ body {
     font-size: 1rem;
     line-height: 15px;
     border-radius: 0.25rem;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    outline: none;
+    font-family: Dosis;
+}
 
 .btn-outline-coral {
     color: var(--coral);
@@ -1905,8 +1912,12 @@ body {
     font-weight: bold !important;
     color: var(--coral) !important;
     padding: 12px 12px;
-    text-transform: uppercase; }
-
+    text-transform: uppercase;
+}
+.fullwidthbtn{
+    max-width: 320px;
+    margin: 0 auto;
+}
 /*footer start*/
 .footer {
     background: var(--charcoal);
@@ -2339,6 +2350,17 @@ body {
 
     .m-m-flex {
         display: none !important; }
+    .xs-rs-card
+    {
+        width: 47%;
+    }
+    .card-slider .xs-rs-card:nth-child(2n)
+    {
+        margin-right: 0 !important;
+    }
+
+}
+@media (min-width: 320px) and (max-width: 576px) {
 
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -2407,6 +2429,9 @@ body {
 
     .card-xs-img {
         height: 77px; }
+    .card-rs-img{
+        height: 100px;
+    }
     .card-title {
         font-size: 12px; }
 

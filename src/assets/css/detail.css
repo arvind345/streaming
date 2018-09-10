@@ -329,7 +329,9 @@ margin-top:20px;
 .page-marg-top{
     margin-top: 16px;
 }
-
+.play-episode{
+    width: 20px !important;
+}
 
 @media (min-width: 320px) and (max-width: 991.98px) {
     .detail-filter {
