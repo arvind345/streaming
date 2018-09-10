@@ -2452,7 +2452,9 @@ body {
         margin-right: -8px; }
     .card-slider {
         overflow-x: scroll; }
-
+   .no-overflow .card-slider{
+       overflow-x: inherit;
+   }
     .m-no-slider {
         white-space: normal; }
     .lg-card {

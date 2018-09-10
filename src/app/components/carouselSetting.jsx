@@ -80,7 +80,7 @@
                     breakpoint: 1024,
                     settings: {
                         slidesToShow: 3.2,
-                        slidesToScroll: 3,
+                        slidesToScroll: 3.2,
                         infinite: false,
                         dots: true
                     }
