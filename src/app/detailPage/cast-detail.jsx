@@ -3,6 +3,10 @@ import '../../assets/css/detail.css';
 import folowers from '../../assets/images/followers.svg';
 import calander from '../../assets/images/calander.svg';
 import plus from '../../assets/images/plus.svg';
+import 'antd/dist/antd.css';
+import { Carousel } from 'antd';
+import { settings1 } from '../components/carouselSetting';
+import { settings32 } from '../components/carouselSetting';
 
 
 class CastDetail extends Component {
@@ -56,7 +60,16 @@ class CastDetail extends Component {
                             {/*social handle start*/}
                             <div className="container d-mobile-block">
                                 <div className="card-component padd">
-                                    <span className="details-subtitle text-uppercase">Social Handle</span>
+                                    <span className="details-subtitle text-uppercase mb-0">Social Handle</span>
+                                    <span className="social-icn">
+                                        <img src="https://www.upcomingg.com/packs/bundles/Upcomingg/assets/images/icons/icon-facebook-f91b15171b3d225fa75b597d44dcc8a7.svg" />
+                                    </span>
+                                    <span className="social-icn">
+                                        <img src="https://www.upcomingg.com/packs/bundles/Upcomingg/assets/images/icons/icon-facebook-f91b15171b3d225fa75b597d44dcc8a7.svg" />
+                                    </span>
+                                    <span className="social-icn">
+                                        <img src="https://www.upcomingg.com/packs/bundles/Upcomingg/assets/images/icons/icon-facebook-f91b15171b3d225fa75b597d44dcc8a7.svg" />
+                                    </span>
                                 </div>
                             </div>
                             {/*social handle end*/}
@@ -64,31 +77,47 @@ class CastDetail extends Component {
                                 <div className="card-component padd">
 
                                     {/*  card wrapper */}
-                                    <div className="card-wrapper">
+                                    <div className="card-wrapper no-overflow">
                                         <span className="details-subtitle text-uppercase">STREAMING ON</span>
-                                        <div className="card-slider">
-                                            <div className="card-div xs-card mr-2">
-                                                <a href="#" className="card-xs-img img-top">
-                                                    <img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/></a>
+
+                                        <div className="card-slider streamcard">
+                                            <Carousel className="card-slider slide-1" {...settings32}>
+                                            <div className="card-div sm-card mr-2">
+                                                <a href="#" className="card-sm-img img-top">
+                                                    <img src="http://via.placeholder.com/400x300"/></a>
                                                 <div className="card-bottom">
-                                                    <div className="card-title">Season 1</div>
-                                                    <div className="card-subtitle">18 Episodes</div>
+                                                    <div className="card-title">Kumkum Bhagya</div>
+                                                    <div className="card-subtitle">Hindi, 2033 Episodes, Since 2014</div>
                                                 </div>
                                             </div>
-                                            <div className="card-div xs-card mr-2">
-                                                <a href="#" className="card-xs-img img-top"><img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/></a>
+                                            <div className="card-div sm-card mr-2">
+                                                <a href="#" className="card-sm-img img-top"><img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/></a>
                                                 <div className="card-bottom">
-                                                    <div className="card-title">Season 2</div>
-                                                    <div className="card-subtitle">41 Episodes</div>
+                                                    <div className="card-title">Mujhse Kuchh Kehti...Yeh Khamoshiyaan</div>
+                                                    <div className="card-subtitle">Hindi, 3757 Episodes, Since 2011</div>
                                                 </div>
                                             </div>
-                                            <div className="card-div xs-card mr-2">
-                                                <a href="#" className="card-xs-img img-top"><img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/></a>
-                                                <div className="card-bottom"><div className="card-title">Season 3</div>
-                                                    <div className="card-subtitle">11 Episodes</div>
+                                            <div className="card-div sm-card mr-2">
+                                                <a href="#" className="card-sm-img img-top"><img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/></a>
+                                                <div className="card-bottom"><div className="card-title">Love Sonia</div>
+                                                    <div className="card-subtitle">Hindi, Drama, Movie, 2018</div>
                                                 </div>
                                             </div>
+                                            <div className="card-div sm-card mr-2">
+                                                <a href="#" className="card-sm-img img-top"><img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/></a>
+                                                <div className="card-bottom"><div className="card-title">Mujhse Kuchh Kehti...Yeh Khamoshiyaan</div>
+                                                    <div className="card-subtitle">Hindi, 3757 Episodes, Since 2011</div>
+                                                </div>
+                                            </div>
+                                            <div className="card-div sm-card mr-2">
+                                                <a href="#" className="card-sm-img img-top"><img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/></a>
+                                                <div className="card-bottom"><div className="card-title">Mujhse Kuchh Kehti...Yeh Khamoshiyaan</div>
+                                                    <div className="card-subtitle">Hindi, 3757 Episodes, Since 2011</div>
+                                                </div>
+                                            </div>
+                                            </Carousel>
                                         </div>
+
                                     </div>
                                     {/* End card wrapper */}
                                 </div>
@@ -201,55 +230,23 @@ class CastDetail extends Component {
                         </div>
                         <div className="col-lg-4 col-md-12 col-12 right-panel">
                             <div className="container">
-                                <div className="card-component">
-                                    <div className="card-component-body pt-2 pb-1">
-                                        <div className="col-7 d-block col-md-12">
-                                            <div className="font-weight-bold p-1"><img src={calander} className="pr-2" alt="" />19 September 2018</div>
-                                            <div className="p-1"><img src={folowers} className="pr-2" /> <span>154</span> Follower(s)</div>
-                                        </div>
-                                        <div className="pt-2 pb-2 pl-3 pr-3">
-                                            <button type="submit" id="LoginButton" className="btn btn-block btn-coral text-uppercase py-2">+ ADD TO WATCHLIST</button>
-                                        </div>
-                                    </div>
+                                <div className="card-component padd">
+                                    <span className="details-subtitle text-uppercase mb-0">Social Handle</span>
+                                    <span className="social-icn">
+                                        <img src="https://www.upcomingg.com/packs/bundles/Upcomingg/assets/images/icons/icon-facebook-f91b15171b3d225fa75b597d44dcc8a7.svg" />
+                                    </span>
+                                    <span className="social-icn">
+                                        <img src="https://www.upcomingg.com/packs/bundles/Upcomingg/assets/images/icons/icon-facebook-f91b15171b3d225fa75b597d44dcc8a7.svg" />
+                                    </span>
+                                    <span className="social-icn">
+                                        <img src="https://www.upcomingg.com/packs/bundles/Upcomingg/assets/images/icons/icon-facebook-f91b15171b3d225fa75b597d44dcc8a7.svg" />
+                                    </span>
                                 </div>
 
-                                <div className="card-component p-3">
-                                    <span className="overview-title font-weight-bold">PEOPLE WHO FOLLOWED THIS MOVIE ALSO FOLLOWED</span>
-                                    <div className="card-div mt-2">
-                                        <div className="right-img-box">
-                                            <img src="https://www.91-cdn.com/upcomingg-img/tr:w-150/images/images/000/005/146/original/MV5BY2ZhYjc1ZjUtZGU2Ny00M2Y0LWEyNDMtZGQ0NzEyZDNkYTM3XkEyXkFqcGdeQXVyNzQ3NTY5MjE_._V1_QL50_SY1000_CR0_0_798_1000_AL_.jpg?1529661557" />
-                                        </div>
-                                        <div className="right-info-box">
-                                            <span className="right-box-title">Kumkum Bhagya</span>
-                                            <span className="cat-tag mb-2 mt-1">Horror</span>
-                                            <div className="right-calander pt-2"><img src={calander} className="pr-2" />23 Oct</div>
-                                            <div className="right-follower"><img src={folowers} className="pr-2" />3500 Followers</div>
-                                            <div className="btn btn-outline-coral mt-2">+ Follow</div>
-                                        </div>
-                                    </div>
-                                    <div className="card-div mt-2">
-                                        <div className="right-img-box">
-                                            <img src="https://www.91-cdn.com/upcomingg-img/tr:w-150/images/images/000/005/146/original/MV5BY2ZhYjc1ZjUtZGU2Ny00M2Y0LWEyNDMtZGQ0NzEyZDNkYTM3XkEyXkFqcGdeQXVyNzQ3NTY5MjE_._V1_QL50_SY1000_CR0_0_798_1000_AL_.jpg?1529661557" />
-                                        </div>
-                                        <div className="right-info-box">
-                                            <span className="right-box-title">Kumkum Bhagya</span>
-                                            <span className="cat-tag mb-2 mt-1">Horror</span>
-                                            <div className="right-calander pt-2"><img src={calander} className="pr-2" />23 Oct</div>
-                                            <div className="right-follower"><img src={folowers} className="pr-2" />3500 Followers</div>
-                                            <div className="btn btn-outline-coral mt-2">&plus; Follow</div>
-                                        </div>
-                                    </div>
-                                    <div className="card-div mt-2">
-                                        <div className="right-img-box">
-                                            <img src="https://www.91-cdn.com/upcomingg-img/tr:w-150/images/images/000/005/146/original/MV5BY2ZhYjc1ZjUtZGU2Ny00M2Y0LWEyNDMtZGQ0NzEyZDNkYTM3XkEyXkFqcGdeQXVyNzQ3NTY5MjE_._V1_QL50_SY1000_CR0_0_798_1000_AL_.jpg?1529661557" />
-                                        </div>
-                                        <div className="right-info-box">
-                                            <span className="right-box-title">Kumkum Bhagya</span>
-                                            <span className="cat-tag mb-2 mt-1">Horror</span>
-                                            <div className="right-calander pt-2"><img src={calander} className="pr-2" />23 Oct</div>
-                                            <div className="right-follower"><img src={folowers} className="pr-2" />3500 Followers</div>
-                                            <div className="btn btn-outline-coral mt-2"><i className="plus-coral">+</i> Follow</div>
-                                        </div>
+                                <div className="card-component padd">
+                                    <div className="follow-wrp">
+                                        <div className="folow-count"><img src="/static/media/followers.4b2097be.svg" className="pr-2" />8500 Followers</div>
+                                        <div className="folow-btn mt-3"><div className="btn btn-coral w-100 active">+ Following</div></div>
                                     </div>
                                 </div>
 
