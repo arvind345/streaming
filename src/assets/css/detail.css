@@ -265,6 +265,7 @@ display: inline-block;
     float: left;
     padding: 10px 15px;
     font-size: 12px;
+    width: 56%;
 }
 .right-box-title {
     font-size: 18px;
@@ -272,7 +273,7 @@ display: inline-block;
     color: var(--charcoal);
     font-family: "Dosis", sans-serif;
     font-weight: 600;
-    max-width: 150px;
+    max-width: 100%;
     text-overflow: ellipsis;
     white-space: pre;
     overflow: hidden;
@@ -485,4 +486,18 @@ margin-top:20px;
         margin: 8px -8px 0px;
         border-bottom: 1px solid #d7d7d7;
     }
+    .right-img-box{
+        width: 115px;
+    }
+    .right-info-box{
+        padding: 0 15px;
+        max-width: 60%;
+    }
+    .right-box-title{
+        font-size: 14px;
+    }
+    span.cat-tag{
+        font-size: 10px;
+    }
+
 }

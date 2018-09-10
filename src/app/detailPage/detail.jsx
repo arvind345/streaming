@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import '../../assets/css/detail.css';
 import folowers from '../../assets/images/followers.svg';
 import calander from '../../assets/images/calander.svg';
-import plus from '../../assets/images/plus.svg';
+import plusIcn from '../../assets/images/plus.svg';
 
 
 class Details extends Component {
@@ -402,7 +402,7 @@ class Details extends Component {
                                     <div className="p-1"><img src={folowers} className="pr-2" /> <span>154</span> Follower(s)</div>
                                 </div>
                                 <div className="pt-2 pb-2 pl-3 pr-3">
-                                    <button type="submit" id="LoginButton" className="btn btn-block btn-coral text-uppercase py-2">+ ADD TO WATCHLIST</button>
+                                    <button type="submit" id="LoginButton" className="btn btn-block btn-coral text-uppercase py-2"><svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9"><path className="plus-icn" fill="#fff" fill-rule="evenodd" d="M8.508 4.872H5.072v3.436H3.944V4.872H.508V3.744h3.436V.308h1.128v3.436h3.436z"/></svg> ADD TO WATCHLIST</button>
                                 </div>
                             </div>
                         </div>
@@ -418,7 +418,10 @@ class Details extends Component {
                                    <span className="cat-tag mb-2 mt-1">Horror</span>
                                    <div className="right-calander pt-2"><img src={calander} className="pr-2" />23 Oct</div>
                                    <div className="right-follower"><img src={folowers} className="pr-2" />3500 Followers</div>
-                                   <div className="btn btn-outline-coral mt-2">+ Follow</div>
+                                   <div className="btn btn-outline-coral mt-2">
+                                       <i className="plus-coral">
+                                           <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9"><path className="plus-icn" fill="#f45050" fill-rule="evenodd" d="M8.508 4.872H5.072v3.436H3.944V4.872H.508V3.744h3.436V.308h1.128v3.436h3.436z"/></svg>
+                                       </i> Follow</div>
                                </div>
                            </div>
                            <div className="card-div mt-2">
@@ -430,7 +433,10 @@ class Details extends Component {
                                    <span className="cat-tag mb-2 mt-1">Horror</span>
                                    <div className="right-calander pt-2"><img src={calander} className="pr-2" />23 Oct</div>
                                    <div className="right-follower"><img src={folowers} className="pr-2" />3500 Followers</div>
-                                   <div className="btn btn-outline-coral mt-2">&plus; Follow</div>
+                                   <div className="btn btn-outline-coral mt-2">
+                                       <i className="plus-coral">
+                                           <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9"><path className="plus-icn" fill="#f45050" fill-rule="evenodd" d="M8.508 4.872H5.072v3.436H3.944V4.872H.508V3.744h3.436V.308h1.128v3.436h3.436z"/></svg>
+                                       </i> Follow</div>
                                </div>
                            </div>
                            <div className="card-div mt-2">
@@ -442,7 +448,10 @@ class Details extends Component {
                                    <span className="cat-tag mb-2 mt-1">Horror</span>
                                    <div className="right-calander pt-2"><img src={calander} className="pr-2" />23 Oct</div>
                                    <div className="right-follower"><img src={folowers} className="pr-2" />3500 Followers</div>
-                                   <div className="btn btn-outline-coral mt-2"><i className="plus-coral">+</i> Follow</div>
+                                   <div className="btn btn-outline-coral mt-2">
+                                       <i className="plus-coral">
+                                           <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9"><path className="plus-icn" fill="#f45050" fill-rule="evenodd" d="M8.508 4.872H5.072v3.436H3.944V4.872H.508V3.744h3.436V.308h1.128v3.436h3.436z"/></svg>
+                                       </i> Follow</div>
                                </div>
                            </div>
                        </div>

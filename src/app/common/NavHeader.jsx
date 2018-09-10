@@ -80,7 +80,7 @@ class NavHeader extends Component {
                     </div>
                     {/*autosuggest end*/}
 
-                    <div className="d-nav-items m-m-flex container">
+                    <div className="d-nav-items m-m-flex flex-center container">
                         <span className="logo flex-9">StreamA2Z</span>
                         <div className="dsk-navbar">
                             <ul className="dsk-navbar-nav text-uppercase">
@@ -124,7 +124,7 @@ class NavHeader extends Component {
                 </div>
                     <div className="overlay_menu"></div>
                 </div>
-
+            <br/>
             <NavLink to="/" className="button">Home</NavLink> |
             <NavLink to="/detail" className="button"> Detail Page</NavLink> |
             <NavLink to="/cast" className="button"> Cast Page</NavLink> |
