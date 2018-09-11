@@ -293,8 +293,8 @@ class Details extends Component {
                                             <div className="card-div lg-card mr-3"><a href="#" className="card-lg-img img-top"><img
                                                 src="http://via.placeholder.com/280x250" /></a>
                                                 <div className="card-bottom">
-                                                    <div className="card-title">Yeh Rishta Kya Kehlata Hai</div>
-                                                    <div className="card-subtitle">Since 2009</div>
+                                                    <div className="card-title">The State Vs Jolly LL.B 2</div>
+                                                    <div className="card-subtitle">Hindi, 2017</div>
                                                 </div>
                                             </div>
                                             <div className="card-div lg-card mr-3"><a href="#" className="card-lg-img img-top"><img
