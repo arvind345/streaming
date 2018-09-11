@@ -85,9 +85,10 @@
     margin-left: 3px;
     margin-top: 7px;
 }
-.expanded .coral-arrow{
-    border-bottom: 16px solid var(--coral);
+.detail-panel-row.active .coral-arrow{
+    border-bottom: 8px solid var(--coral);
     border-top:0px;
+    margin-top: 3px;
 }
 
 .detail-panel-info{
@@ -551,7 +552,8 @@ margin-top:20px;
         border-left: 8px solid transparent;
         margin-top: 3px;
     }
-    .expanded .coral-arrow{
-        border-bottom: 8px solid var(--coral);
+    .detail-panel-row.active .coral-arrow{
+        border-bottom: 16px solid var(--coral);
+        margin-top: -3px;
     }
 }

@@ -4,6 +4,7 @@ import Footer from './app/common/Footer';
 import Login from './app/common/Login';
 import Home from './app/home/Home';
 import Details from './app/detailPage/detail';
+import MovieDetails from './app/detailPage/moviedetail';
 import Filter from './app/listPage/Filter';
 import Cast from './app/detailPage/cast';
 import DetailEpisode from './app/detailPage/detail-episodePage';
@@ -23,6 +24,7 @@ class App extends Component {
                 <Switch>
                     <Route path='/' exact component={Home} />
                     <Route path='/detail'  component={Details} />
+                    <Route path='/moviedetail'  component={MovieDetails} />
                     <Route path='/login'  component={Login} />
                     <Route path='/filter'  component={Filter} />
                     <Route path='/cast'  component={Cast} />
