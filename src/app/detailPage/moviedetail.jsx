@@ -48,8 +48,18 @@ class Details extends Component {
                                             <span>Movie</span> | <span>Hindi</span> | <span>Drama</span> | <span>2 Hrs 30 Mins</span>| <span>2017</span>
                                         </div>
                                     </div>
+                                        <div className="shadow">
                                     <div className="top-banner img-center">
                                         <img className="img-fluid" src="https://images.justwatch.com/backdrop/24944793/s1440/tubelight" alt="" />
+                                    </div>
+                                        <div className="bnr-btm">
+                                            <div className="bnr-btm-play"><img
+                                                src="/static/media/play-white.b02d28e3.svg" /></div>
+                                            <div className="bnr-btm-txt-wrp">
+                                                <div className="bnr-btm-txt">Latest Episode</div>
+                                                <div className="bnr-date">5 Sept, 2017</div>
+                                            </div>
+                                        </div>
                                     </div>
                                         <div className="movie-rating-div">
                                             <span className="rat-titl">Rating:</span>
