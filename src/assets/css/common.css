@@ -171,6 +171,9 @@ h6,
 .flex-center{
     align-items: center;
 }
+.desktop-flex{
+    display: flex;
+}
 .plus-coral{
     margin-top: -11px;
     display: inline-flex;
@@ -199,8 +202,9 @@ h6,
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg); }
 
-d-flex {
+.d-flex {
     display: flex; }
+
 
 .rotateImage {
     -webkit-transform: rotate(180deg);
@@ -2519,6 +2523,9 @@ body {
     .social-icn img{
         width: 24px;
         height: 24px;
+    }
+    .desktop-flex{
+        display: block;
     }
 }
 

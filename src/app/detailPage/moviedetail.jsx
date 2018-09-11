@@ -26,173 +26,50 @@ class Details extends Component {
                                 <div className="card-component d-desktop-block">
                                     <div className="padd">
                                         <div className="detail-left-wrp">
-                                            <img src="https://www.91-cdn.com/upcomingg-img/tr:w-150/images/images/000/005/146/original/MV5BY2ZhYjc1ZjUtZGU2Ny00M2Y0LWEyNDMtZGQ0NzEyZDNkYTM3XkEyXkFqcGdeQXVyNzQ3NTY5MjE_._V1_QL50_SY1000_CR0_0_798_1000_AL_.jpg?1529661557" />
+                                            <img src="https://images.justwatch.com/poster/8904901/s592/tubelight" />
                                         </div>
-                                        <div className="detail-ryt-wrp">
-                                            <h1 className="details-title">Kumkum Bhagya</h1>
+                                        <div className="detail-ryt-wrp detail-movie-wrp">
+                                            <h1 className="details-title">Tubelight</h1>
                                             <div className="detail-filter pb-1">
-                                                <span>TV Show</span> | <span>Drama</span> | <span>Hinid</span> | <span>Zee TV</span> | <span>241 Episodes</span>
+                                                <span>Movie</span> | <span>Hindi</span> | <span>Drama</span> | <span>2 Hrs 30 Mins</span>
                                             </div>
+                                        </div>
+                                        <div className="movie-rating"><span><b>6.5</b>/10</span>
+                                            <div className="rate-logo"><img src="https://upload.wikimedia.org/wikipedia/commons/6/69/IMDB_Logo_2016.svg" /></div>
                                         </div>
                                         <div className="clearfix"></div>
                                     </div>
                                 </div>
                                 <div className="card-component">
-                                    <div className="padd d-mobile-block">
-                                        <h1 className="details-title">Kumkum Bhagya</h1>
+                                    <div className="d-mobile-block">
+                                    <div className="padd">
+                                        <h1 className="details-title">Tubelight</h1>
                                         <div className="detail-filter pb-1">
-                                            <span>TV Show</span> | <span>Drama</span> | <span>Hinid</span> | <span>Zee TV</span> | <span>241 Episodes</span>
+                                            <span>Movie</span> | <span>Hindi</span> | <span>Drama</span> | <span>2 Hrs 30 Mins</span>| <span>2017</span>
                                         </div>
                                     </div>
-                                    <div className="top-banner img-center d-mobile-block">
-                                        <img className="img-fluid" src="https://www.91-cdn.com/upcomingg-img/images/images/000/005/681/original/ET00078520.jpg?1530060630" alt="" />
+                                    <div className="top-banner img-center">
+                                        <img className="img-fluid" src="https://images.justwatch.com/backdrop/24944793/s1440/tubelight" alt="" />
                                     </div>
+                                        <div className="movie-rating-div">
+                                            <span className="rat-titl">Rating:</span>
+                                            <span className="mov-rat"><span className="mov-rat-img"><img src="https://upload.wikimedia.org/wikipedia/commons/6/69/IMDB_Logo_2016.svg" /></span>6.5</span>
+                                            <span className="mov-rat ml-5"><span className="mov-rat-img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Rottentomatoesnewlogo.svg/1280px-Rottentomatoesnewlogo.svg.png" /></span>6.5</span>
+                                        </div>
+
+                                </div>
                                     <div className="padd">
-                                        <span className="overview-title font-weight-bold">About Kumkum Bhagya</span>
+                                        <span className="overview-title font-weight-bold">Tubelight Story</span>
                                         <span className="description clearfix d-block">
-                                Kumkum Bhagya&apos; is a show following the life of a Punjabi matriarch Sarla Arora who runs a marriage hall and lives with the hope of seeing her two daughters Pragya and Bulbul who ... <span className="read-more">read full summary</span>
+                                Tubelight (2017) is a Hindi movie starring Salman Khan, Sohail Khan, Zhu Zhu, Matin Rey Tangu and Om Puri. Directed by Kabir Khan, the film takes us back during the 1962 Sino-Indian War, where Laxman Singh Bisht popularly known as Tubelight, teaches the villagers that 'faith can move mounta...<span className="read-more">read more</span>
                             </span>
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="container">
-                                <div className="card-component padd">
-
-                                    {/*  card wrapper */}
-                                    <div className="card-wrapper">
-                                        <span className="details-subtitle text-uppercase">STREAMING ON</span>
-                                        <div className="card-slider">
-                                            <div className="card-div xs-card mr-2">
-                                                <a href="#" className="card-xs-img img-top">
-                                                    <img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/>
-                                                    <img src="/static/media/play-white.b02d28e3.svg" className="play-episode" />
-                                                </a>
-                                                <div className="card-bottom">
-                                                    <div className="card-title">Season 1</div>
-                                                    <div className="card-subtitle">18 Episodes</div>
-                                                </div>
-                                            </div>
-                                            <div className="card-div xs-card mr-2">
-                                                <a href="#" className="card-xs-img img-top">
-                                                    <img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/>
-                                                    <img src="/static/media/play-white.b02d28e3.svg" className="play-episode" />
-                                                </a>
-                                                <div className="card-bottom">
-                                                    <div className="card-title">Season 2</div>
-                                                    <div className="card-subtitle">41 Episodes</div>
-                                                </div>
-                                            </div>
-                                            <div className="card-div xs-card mr-2">
-                                                <a href="#" className="card-xs-img img-top">
-                                                    <img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/>
-                                                    <img src="/static/media/play-white.b02d28e3.svg" className="play-episode" />
-                                                </a>
-                                                <div className="card-bottom"><div className="card-title">Season 3</div>
-                                                    <div className="card-subtitle">11 Episodes</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* End card wrapper */}
-                                </div>
-                            </div>
-
-                            {/*latest episode start*/}
-                            <div className="container">
-                                <div className="card-component padd">
-
-                                    {/*  card wrapper */}
-                                    <div className="">
-                                        <span className="details-subtitle text-uppercase">KUMKUM BHAGYA LATEST EPISODES - SEASON 1</span><span className="view-all d-desktop-block">VIEW ALL EPISODES</span>
-                                        <div className="detail-latest-wrap">
-                                            <div className="detail-panel-row active">
-                                                <div className="detail-panel-title">
-                                        <span>
-                                            <span className="d-episodes"> E 392 </span><span className="spacer">|</span>00:29:23 Mins<span className="spacer">|</span>06 June
-                                        </span>
-                                                    <div className="coral-arrow pull-right"></div>
-                                                </div>
-                                                <div className="detail-panel-info-wrap">
-                                                    <div className="detail-panel-info">
-                                                        <p>Ishqbaaaz is a Hindi drama aired on StarPlus. The story is about three brothers - Shivaay, Omkara and Rudra -- who share an unbreakable bond despite their dysfunctional family. Watch all the latest episodes of Ishqbaaaz on Hotstar.</p>
-                                                    </div>
-                                                    <div className="panel-filters">
-                                                        <div className="panel-filter-head">
-                                                            <span className="fltrs">Filters :</span>
-                                                            <span className="fltr-tab active">Best Price</span>
-                                                            <span className="fltr-tab">SD</span>
-                                                            <span className="fltr-tab">HD</span>
-                                                            <span className="fltr-tab">4K</span>
-                                                        </div>
-                                                        <div className="panel-filter-info">
-                                                            <div className="panel-filter-info-row">
-                                                                <div className="panel-filter-strip">Stream</div>
-                                                                <div className="panel-chnl-wrp">
-                                                                    <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
-                                                                    <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
-                                                                    <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
-                                                                    <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
-                                                                    <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
-                                                                    <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
-                                                                    <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
-                                                                    <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
 
 
-                                                                </div>
-                                                                <div className="clearfix"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="detail-panel-row">
-                                                <div className="detail-panel-title">
-                                        <span>
-                                            <span className="d-episodes"> E 392 </span><span className="spacer">|</span>00:29:23 Mins<span className="spacer">|</span>06 June
-                                        </span>
-                                                    <div className="coral-arrow pull-right"></div>
-                                                </div>
-                                                <div className="detail-panel-info-wrap">
-                                                    <div className="detail-panel-info">
-                                                        <p>Ishqbaaaz is a Hindi drama aired on StarPlus. The story is about three brothers - Shivaay, Omkara and Rudra -- who share an unbreakable bond despite their dysfunctional family. Watch all the latest episodes of Ishqbaaaz on Hotstar.</p>
-                                                    </div>
-                                                    <div className="panel-filters">
-                                                        <div className="panel-filter-head">
-                                                            <span className="fltrs">Filters :</span>
-                                                            <span className="fltr-tab active">Best Price</span>
-                                                            <span className="fltr-tab">SD</span>
-                                                            <span className="fltr-tab">HD</span>
-                                                            <span className="fltr-tab">4K</span>
-                                                        </div>
-                                                        <div className="panel-filter-info">
-                                                            <div className="panel-filter-info-row">
-                                                                <div className="panel-filter-strip">Stream</div>
-                                                                <div className="panel-chnl-wrp">
-                                                                    <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
-                                                                    <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
-                                                                    <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
-                                                                    <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
-                                                                    <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
-                                                                    <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
-                                                                    <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
-                                                                    <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
 
-
-                                                                </div>
-                                                                <div className="clearfix"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* End card wrapper */}
-                                </div>
-                                <div className="btn btn-bg-pink w-100 mb-2 d-mobile-block">VIEW ALL EPISODES</div>
-                            </div>
-                            {/*latest episode end*/}
                             {/*watch now start*/}
                             <div className="container">
                                 <div className="card-component padd">
@@ -205,40 +82,79 @@ class Details extends Component {
                                                             className="fltrs">Filters :</span><span className="fltr-tab active">Best Price</span><span
                                                             className="fltr-tab">SD</span><span className="fltr-tab">HD</span><span
                                                             className="fltr-tab">4K</span></div>
-                                                        <div className="panel-filter-info">
-                                                            <div className="panel-filter-info-row main-panel-row">
+                                                        <div className="panel-filter-info movie-filter-info desktop-flex">
+                                                            <div className="panel-filter-info-row main-panel-row flex-1">
                                                                 <div className="panel-filter-strip">Stream</div>
                                                                 <div className="panel-chnl-wrp ">
                                                                     <div className="main-panel-outr">
                                                                         <div className="panel-chnl">
                                                                             <img src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
                                                                         </div>
-                                                                        <div className="seasontitle">1 Season</div>
+                                                                        <div className="seasontitle">Rs. 100</div>
                                                                     </div>
                                                                     <div className="main-panel-outr">
                                                                         <div className="panel-chnl">
                                                                             <img src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
                                                                         </div>
-                                                                        <div className="seasontitle">1 Season</div>
+                                                                        <div className="seasontitle">Rs. 100</div>
                                                                     </div>
                                                                     <div className="main-panel-outr">
                                                                         <div className="panel-chnl">
                                                                             <img src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
                                                                         </div>
-                                                                        <div className="seasontitle">1 Season</div>
+                                                                        <div className="seasontitle">Rs. 100</div>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div className="clearfix"></div>
+                                                            </div>
+                                                            <div className="panel-filter-info-row main-panel-row rent-row flex-1">
+                                                                <div className="panel-filter-strip">Rent</div>
+                                                                <div className="panel-chnl-wrp ">
+                                                                    <div className="main-panel-outr">
+                                                                        <div className="panel-chnl">
+                                                                            <img src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                                        </div>
+                                                                        <div className="seasontitle">Rs. 100</div>
                                                                     </div>
                                                                     <div className="main-panel-outr">
                                                                         <div className="panel-chnl">
                                                                             <img src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
                                                                         </div>
-                                                                        <div className="seasontitle">1 Season</div>
+                                                                        <div className="seasontitle">Rs. 100</div>
                                                                     </div>
                                                                     <div className="main-panel-outr">
                                                                         <div className="panel-chnl">
                                                                             <img src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
                                                                         </div>
-                                                                        <div className="seasontitle">1 Season</div>
+                                                                        <div className="seasontitle">Rs. 100</div>
                                                                     </div>
+
+                                                                </div>
+                                                                <div className="clearfix"></div>
+                                                            </div>
+                                                            <div className="panel-filter-info-row main-panel-row buy-row flex-1">
+                                                                <div className="panel-filter-strip">Buy</div>
+                                                                <div className="panel-chnl-wrp ">
+                                                                    <div className="main-panel-outr">
+                                                                        <div className="panel-chnl">
+                                                                            <img src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                                        </div>
+                                                                        <div className="seasontitle">Rs. 100</div>
+                                                                    </div>
+                                                                    <div className="main-panel-outr">
+                                                                        <div className="panel-chnl">
+                                                                            <img src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                                        </div>
+                                                                        <div className="seasontitle">Rs. 100</div>
+                                                                    </div>
+                                                                    <div className="main-panel-outr">
+                                                                        <div className="panel-chnl">
+                                                                            <img src="https://images.justwatch.com/icon/4233120/s100/hotstar"/>
+                                                                        </div>
+                                                                        <div className="seasontitle">Rs. 100</div>
+                                                                    </div>
+
                                                                 </div>
                                                                 <div className="clearfix"></div>
                                                             </div>
@@ -252,10 +168,51 @@ class Details extends Component {
                                 <div className="btn btn-bg-pink w-100 mb-2 d-mobile-block">VIEW ALL EPISODES</div>
                             </div>
                             {/*watch now end*/}
+                            <div className="container">
+                                <div className="card-component padd">
+
+                                    {/*  card wrapper */}
+                                    <div className="card-wrapper">
+                                        <span className="details-subtitle text-uppercase">Tubelight's Trailer</span>
+                                        <div className="card-slider">
+                                            <div className="card-div xs-card mr-2">
+                                                <a href="#" className="card-xs-img img-top">
+                                                    <img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/>
+                                                    <img src="/static/media/play-white.b02d28e3.svg" className="play-episode" />
+                                                </a>
+                                                <div className="card-bottom">
+                                                    <div className="card-title">01</div>
+                                                    <div className="card-subtitle">02:15 Mins , 07 June, 17</div>
+                                                </div>
+                                            </div>
+                                            <div className="card-div xs-card mr-2">
+                                                <a href="#" className="card-xs-img img-top">
+                                                    <img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/>
+                                                    <img src="/static/media/play-white.b02d28e3.svg" className="play-episode" />
+                                                </a>
+                                                <div className="card-bottom">
+                                                    <div className="card-title">02</div>
+                                                    <div className="card-subtitle">02:15 Mins , 07 June, 17</div>
+                                                </div>
+                                            </div>
+                                            <div className="card-div xs-card mr-2">
+                                                <a href="#" className="card-xs-img img-top">
+                                                    <img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/>
+                                                    <img src="/static/media/play-white.b02d28e3.svg" className="play-episode" />
+                                                </a>
+                                                <div className="card-bottom"><div className="card-title">03</div>
+                                                    <div className="card-subtitle">02:15 Mins , 07 June, 17</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* End card wrapper */}
+                                </div>
+                            </div>
                             {/*cast start*/}
                             <div className="container">
                                 <div className="card-component padd">
-                                    <span className="details-subtitle text-uppercase">KUMKUM BHAGYA - star cast</span><span className="view-all d-desktop-block">VIEW FULL CAST </span>
+                                    <span className="details-subtitle text-uppercase">Cast</span><span className="view-all d-desktop-block">VIEW FULL CAST </span>
                                     <div className="card-wrapper">
                                         <div className="card-slider">
                                             <div className="avtar-wrap">
@@ -287,7 +244,7 @@ class Details extends Component {
                                 </div>
 
                                 <div className="card-component padd">
-                                    <span className="details-subtitle text-uppercase">KUMKUM BHAGYA - star crew</span><span className="view-all d-desktop-block">VIEW FULL CREW</span>
+                                    <span className="details-subtitle text-uppercase">Crew</span><span className="view-all d-desktop-block">VIEW FULL CREW</span>
                                     <div className="card-wrapper">
                                         <div className="card-slider">
                                             <div className="avtar-wrap">
@@ -331,7 +288,7 @@ class Details extends Component {
                             <div className="container">
                                 <div className="no-m-card-component card-component padd">
                                     <div className="card-wrapper">
-                                        <div className="card-header mt-2">Popular Hindi TV Shows</div>
+                                        <div className="card-header mt-2">Popular Movies (Drama)</div>
                                         <div className="card-slider">
                                             <div className="card-div lg-card mr-3"><a href="#" className="card-lg-img img-top"><img
                                                 src="http://via.placeholder.com/280x250" /></a>
