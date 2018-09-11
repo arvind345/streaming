@@ -13,6 +13,7 @@ class Details extends Component {
             <div>
                 <div className="top-banner img-center d-desktop-block">
                     <img className="img-fluid" src="https://images.justwatch.com/backdrop/24944793/s1440/tubelight" alt="" />
+                    <img src="https://www.upcomingg.com/packs/bundles/Upcomingg/assets/images/icons/icon-play-9b810bf3a3f9c779961b9550f36dbc1c.svg">
                 </div>
                 <div className="container">
                     <div className="row no-gutters ">
