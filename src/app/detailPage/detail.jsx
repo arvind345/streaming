@@ -65,21 +65,29 @@ class Details extends Component {
                             <div className="card-slider">
                                 <div className="card-div xs-card mr-2">
                                     <a href="#" className="card-xs-img img-top">
-                                        <img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/></a>
+                                        <img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/>
+                                        <img src="/static/media/play-white.b02d28e3.svg" className="play-episode" />
+                                    </a>
                                     <div className="card-bottom">
                                         <div className="card-title">Season 1</div>
                                         <div className="card-subtitle">18 Episodes</div>
                                     </div>
                                 </div>
                                 <div className="card-div xs-card mr-2">
-                                    <a href="#" className="card-xs-img img-top"><img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/></a>
+                                    <a href="#" className="card-xs-img img-top">
+                                        <img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/>
+                                        <img src="/static/media/play-white.b02d28e3.svg" className="play-episode" />
+                                    </a>
                                     <div className="card-bottom">
                                         <div className="card-title">Season 2</div>
                                         <div className="card-subtitle">41 Episodes</div>
                                     </div>
                                 </div>
                                 <div className="card-div xs-card mr-2">
-                                    <a href="#" className="card-xs-img img-top"><img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/></a>
+                                    <a href="#" className="card-xs-img img-top">
+                                        <img src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/007/461/original/1.jpg?1531212727"/>
+                                        <img src="/static/media/play-white.b02d28e3.svg" className="play-episode" />
+                                    </a>
                                         <div className="card-bottom"><div className="card-title">Season 3</div>
                                         <div className="card-subtitle">11 Episodes</div>
                                     </div>
