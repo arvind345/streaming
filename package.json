@@ -6,6 +6,7 @@
     "antd": "^3.9.1",
     "jquery": "^3.3.1",
     "node": "^10.6.0",
+    "photoswipe": "^4.1.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-native-svg": "^6.5.1",

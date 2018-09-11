@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import '../../assets/css/detail.css';
+import PhotoSwipe from 'photoswipe';
+import PhotoSwipeUI_Default from 'photoswipe/dist/photoswipe-ui-default';
 import folowers from '../../assets/images/followers.svg';
 import calander from '../../assets/images/calander.svg';
 import plusIcn from '../../assets/images/plus.svg';
@@ -461,7 +463,7 @@ class Details extends Component {
                 </div>
 
             </div>
-            </div>
+          </div>
         );
     }
 }
