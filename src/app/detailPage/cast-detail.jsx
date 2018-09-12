@@ -20,9 +20,9 @@ class CastDetail extends Component {
                     <div className="row no-gutters ">
                         <div className="col-lg-8 col-md-12 col-12 left-panel">
                             <div className="m-d-flex tab-box">
-                                <span className="active">Info</span>
-                                <span>Cast</span>
-                                <span>Episode</span>
+                                <div className="tabs"><span className="active">INFO</span></div>
+                                <div className="tabs"><span>CAST</span></div>
+                                <div className="tabs"><span>EPISODE</span></div>
                             </div>
                             <div className="container">
                                 <div className="card-component d-desktop-block">

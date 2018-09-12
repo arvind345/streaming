@@ -8,9 +8,9 @@ class Cast extends Component {
             <div>
                 <div className="castpage">
                     <div className="m-d-flex tab-box">
-                        <span className="active">Info</span>
-                        <span>Cast</span>
-                        <span>Episode</span>
+                        <div className="tabs"><span className="active">Info</span></div>
+                        <div className="tabs"><span>Cast</span></div>
+                        <div className="tabs"><span>Episode</span></div>
                     </div>
                 <div className="container clearfix">
                             <div className="card-component padd">
