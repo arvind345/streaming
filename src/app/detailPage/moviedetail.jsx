@@ -21,7 +21,6 @@ class Details extends Component {
                             <div className="m-d-flex tab-box">
                                 <span className="active">Info</span>
                                 <span>Cast</span>
-                                <span>Episode</span>
                             </div>
                             <div className="container">
                                 <div className="card-component d-desktop-block">
