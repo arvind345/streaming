@@ -11,7 +11,7 @@
 }
 .md-card{
     width: auto;
-    height: 256px;
+    height: 270px;
     display: block;
 }
 .card-md-img {
@@ -20,17 +20,53 @@
     position: relative;
     display: block;
 }
-.md-card .card-title{
-    font-size: 12px;
-}
-.md-card .card-subtitle{
-    margin-top: 0px;
-    font-size: 10px;
-}
 
+.md-card .card-title{
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: hidden;
+}
+/*channel card strat*/
+.ch-card{
+    width: auto;
+    height: 220px;
+    display: block;
+}
+.card-ch-img {
+    height: 150px;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+.card-ch-img img{
+    padding: 15px;
+}
 @media (min-width: 320px) and (max-width: 767.98px) {
     .listcard{
         flex: 0 0 50%;
         max-width: 50%;
+    }
+    .md-card {
+        height: 180px;
+    }
+    .card-md-img {
+        height: 130px;
+    }
+    .md-card .card-title{
+        font-size: 10px;
+    }
+    .md-card .card-subtitle{
+        margin-top: 0px;
+        font-size: 10px;
+    }
+    .ch-card{
+        height: 125px;
+    }
+    .card-ch-img {
+        height: 72px;
+    }
+    .card-ch-img img{
+        padding: 10px;
     }
 }

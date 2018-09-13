@@ -132,7 +132,8 @@ class NavHeader extends Component {
             <NavLink to="/detailepisode" className="button">Episode</NavLink> |
             <NavLink to="/cast" className="button"> Cast</NavLink> |
             <NavLink to="/cast-detail" className="button"> Cast Detail</NavLink> |
-            <NavLink to="/list-page" className="button"> List </NavLink>
+            <NavLink to="/list-page" className="button"> List </NavLink> |
+            <NavLink to="/channel-list-page" className="button"> Channel List </NavLink>
 
         </div>
 

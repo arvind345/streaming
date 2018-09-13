@@ -10,6 +10,7 @@ import Cast from './app/detailPage/cast';
 import DetailEpisode from './app/detailPage/detail-episodePage';
 import CastDetail from './app/detailPage/cast-detail';
 import ListPage from './app/listPage/list-page';
+import ChannelListPage from './app/listPage/channel-list-page';
 
 //import './App.scss';
 import './assets/css/common.css';
@@ -32,6 +33,7 @@ class App extends Component {
                     <Route path='/detailepisode'  component={DetailEpisode} />
                     <Route path='/cast-detail'  component={CastDetail} />
                     <Route path='/list-page'  component={ListPage} />
+                    <Route path='/channel-list-page'  component={ChannelListPage} />
                 </Switch>
                 <Footer/>
             </div>
