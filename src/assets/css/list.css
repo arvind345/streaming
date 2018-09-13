@@ -1,0 +1,36 @@
+.listwrp{
+    display: flex;
+    flex-wrap: wrap;
+}
+.listcard{
+    flex: 0 0 33.333333333333%;
+    max-width: 33.333333333333%;
+}
+.listwrp .card-div{
+    margin: 0.5rem !important;
+}
+.md-card{
+    width: auto;
+    height: 256px;
+    display: block;
+}
+.card-md-img {
+    height: 209px;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+.md-card .card-title{
+    font-size: 12px;
+}
+.md-card .card-subtitle{
+    margin-top: 0px;
+    font-size: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+    .listcard{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}

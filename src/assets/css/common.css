@@ -1655,6 +1655,9 @@ body {
     display: block !important; }
 .d-mobile-block {
     display: none !important; }
+.border-right {
+    border-right: 1px solid #dee2e6 !important;
+}
 /*home page*/
 .home-banner {
     position: relative;
