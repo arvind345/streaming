@@ -13,7 +13,7 @@ class ListPage extends Component {
                    <div className="tabs"><span>TV Shows</span></div>
                </div>
                <div className="container">
-                   <div className="card-component">
+                   <div className="no-m-card-component card-component">
                    <div className="row no-gutters">
                        <div className="col-12 col-sm-12 col-lg-3 left-snippet border-right d-desktop-block">
                            <div className="padd">Filters</div>
