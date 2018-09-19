@@ -1,3 +1,13 @@
+.ryt-snippet{
+    padding: 10px;
+}
+.left-snippet{
+    padding: 15px;
+}
+.ryt-snippet .card-header{
+    font-size: 18px;
+    line-height: 17px;
+}
 .listwrp{
     display: flex;
     flex-wrap: wrap;
@@ -27,6 +37,7 @@
     white-space: pre;
     overflow: hidden;
 }
+
 /*channel card strat*/
 .ch-card{
     width: auto;
@@ -41,6 +52,89 @@
 }
 .card-ch-img img{
     padding: 15px;
+}
+/*filter start*/
+.filtertop {
+    border-bottom: 1px solid #dadada;
+    font-size: 14px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 13px;
+    color: #19171a;
+    margin-bottom: 8px;
+}
+.clr-all{
+    text-align: right;
+    color: var(--coral);
+}
+.fltrwrap{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.d-filtrlist ul{
+    margin: 0px;
+    padding: 0px;
+}
+.d-filtrlist li{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 18px;
+    letter-spacing: normal;
+    color: var(--greyish-brown);
+    list-style-type: none;
+    margin-top: 16px;
+}
+.d-filtrlist li.active{
+    font-weight: 600;
+}
+.d-filtrlist .filterinputtext {
+    vertical-align: text-top;
+}
+.fltrheading{
+    font-size: 12px;
+    line-height: 20px;
+    color: #19171a;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.d-yr-range-wrp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+}
+.d-yr-range-div {
+    padding: 7px 8px;
+    background: #eeeee9;
+    font-size: 14px;
+    color: #a0a09c;
+    line-height: 18px;
+    display: inline-block;
+    min-width: 80px;
+    border-radius: 3px;
+    font-weight: 300;
+    margin: 0px;
+    /* margin-top: 13px; */
+}
+.date-spacer{
+    margin: 0px 10px;
+}
+.d-filtrlist .yr-range-div:last-child{
+    width: 88px;
+}
+.d-filtrlist .radiobtn{
+    border: 2px solid #dadada;
+}
+.d-filtrlist .checkmark{
+    border: 1px solid #dadada;
+    width: 15px;
+    height: 15px;
 }
 @media (min-width: 320px) and (max-width: 767.98px) {
     .listcard{
