@@ -212,7 +212,32 @@ class ListPage extends Component {
                        </div>
                        <div className="col-cs-12 col-cssm-12 col-cslg-9">
                            <div className="ryt-snippet">
-                                   <div className="card-header mt-2">580 RESULTS FOUND </div>
+                                   <div>
+                                       <span className="card-header mt-2">580 RESULTS FOUND </span>
+                                       <div className="select_container cust-select pull-right d-desktop-block">
+                                           <select>
+                                               <option>SORT BY : LAUNCH DATE</option>
+                                               <option>Sort By: Popularity</option>
+                                               <option>Sort By: Popularity</option>
+                                           </select>
+                                       </div>
+                                   </div>
+                               <div className="provider-filter-wrp">
+                               <div className="card-slider">
+                                   <ul>
+                                       <li className="img-center"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></li>
+                                       <li className="img-center"><img src="https://images.justwatch.com/icon/4233119/s100/voot" /></li>
+                                       <li className="img-center"><img src="https://images.justwatch.com/icon/430997/s100/netflix" /></li>
+                                       <li className="img-center"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></li>
+                                       <li className="img-center"><img src="https://images.justwatch.com/icon/4233119/s100/voot" /></li>
+                                       <li className="img-center"><img src="https://images.justwatch.com/icon/430997/s100/netflix" /></li>
+                                       <li className="img-center"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></li>
+                                       <li className="img-center"><img src="https://images.justwatch.com/icon/4233119/s100/voot" /></li>
+                                       <li className="img-center"><img src="https://images.justwatch.com/icon/430997/s100/netflix" /></li>
+
+                                   </ul>
+                               </div>
+                               </div>
                                <div className="clearfix"></div>
                                <div className="listwrp">
                                    <div className="listcard">
@@ -221,8 +246,8 @@ class ListPage extends Component {
                                                <img src="https://secure-media2.hotstar.com/r1/thumbs/PCTV/86/586/PCTV-586-hcdl.jpg" className="img-cover" width="370px" height="300px" />
                                            </a>
                                            <div className="card-bottom">
-                                               <div className="card-title">Yeh Rishta Kya Kehlata Hai</div>
-                                               <div className="card-subtitle">DRAMA, Hindi, HotStar, 2004</div>
+                                               <div className="card-title">Jurassic World: Fallen Kingdom</div>
+                                               <div className="card-subtitle">Science fiction film/Adventure, Hindi,  PRIME VIDEO</div>
                                            </div>
                                        </div>
                                    </div>
