@@ -7,23 +7,60 @@ class ChannelListPage extends Component {
     render() {
         return(
             <div>
-                <div className="m-d-flex tab-box">
-                    <div className="tabs"><span className="active">ALL</span></div>
-                    <div className="tabs"><span>Movies</span></div>
-                    <div className="tabs"><span>TV Shows</span></div>
-                </div>
                 <div className="container">
                     <div className="no-m-card-component card-component">
                         <div className="row no-gutters">
-                            <div className="col-12 col-sm-12 col-lg-3 left-snippet border-right d-desktop-block">
-                                <div className="padd">Filters</div>
-                            </div>
-                            <div className="col-12 col-sm-12 col-lg-9">
-                                <div className="padd ryt-snippet">
-                                    <div className="card-header mt-2">Popular Hindi TV Shows</div>
+                            <div className="col-12 ">
+                                <div className="padd">
+                                    <div className="card-header mt-2">Channels</div>
                                     <div className="clearfix"></div>
-                                    <div className="listwrp">
-                                        <div className="listcard">
+                                    <div className="chnl-listwrp">
+                                        <div className="chnl-listcard">
+                                            <div className="card-div ch-card ">
+                                                <a href="#" className="card-ch-img img-center">
+                                                    <img src="https://vignette.wikia.nocookie.net/logopedia/images/3/3b/%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D9%84%D8%A9_%D8%A8%D8%B1%D8%B3.png/revision/latest?cb=20170604044941"  />
+                                                </a>
+                                                <div className="card-bottom">
+                                                    <div className="card-title">Colors</div>
+                                                    <div className="card-subtitle">59 Shows</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className="chnl-listcard">
+                                            <div className="card-div ch-card ">
+                                                <a href="#" className="card-ch-img img-center">
+                                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Star_Jalsha_logo.jpg/220px-Star_Jalsha_logo.jpg"  />
+                                                </a>
+                                                <div className="card-bottom">
+                                                    <div className="card-title">STAR Jalsha</div>
+                                                    <div className="card-subtitle">59 Shows</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="chnl-listcard">
+                                            <div className="card-div ch-card ">
+                                                <a href="#" className="card-ch-img img-center">
+                                                    <img src="http://lh3.ggpht.com/-pK3ELybQHwE/Tf977i1pREI/AAAAAAAAEZI/ro5MRIy5DBY/zee-tv-new-logo%25255B4%25255D.jpg?imgmax=800"  />
+                                                </a>
+                                                <div className="card-bottom">
+                                                    <div className="card-title">Zee Tv</div>
+                                                    <div className="card-subtitle">59 Shows</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="chnl-listcard">
+                                            <div className="card-div ch-card ">
+                                                <a href="#" className="card-ch-img img-center">
+                                                    <img src="https://vignette.wikia.nocookie.net/logopedia/images/8/8c/%26TV.jpg/revision/latest?cb=20161205163128"  />
+                                                </a>
+                                                <div className="card-bottom">
+                                                    <div className="card-title">STAR PLUS</div>
+                                                    <div className="card-subtitle">59 Shows</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="chnl-listcard">
                                             <div className="card-div ch-card ">
                                                 <a href="#" className="card-ch-img img-center">
                                                     <img src="https://secure-media3.hotstar.com/r1/thumbs/PCTV/21/821/PCTV-821-hs.jpg"  />
@@ -34,18 +71,7 @@ class ChannelListPage extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="listcard">
-                                            <div className="card-div ch-card ">
-                                                <a href="#" className="card-ch-img img-center">
-                                                    <img src="https://images.justwatch.com/icon/4233120/s100/hotstar"  />
-                                                </a>
-                                                <div className="card-bottom">
-                                                    <div className="card-title">STAR PLUS</div>
-                                                    <div className="card-subtitle">59 Shows</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="listcard">
+                                        <div className="chnl-listcard">
                                             <div className="card-div ch-card ">
                                                 <a href="#" className="card-ch-img img-center">
                                                     <img src="https://secure-media3.hotstar.com/r1/thumbs/PCTV/21/821/PCTV-821-hs.jpg"  />
@@ -56,17 +82,7 @@ class ChannelListPage extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="listcard">
-                                            <div className="card-div ch-card ">
-                                                <a href="#" className="card-ch-img img-center">
-                                                    <img src="https://secure-media3.hotstar.com/r1/thumbs/PCTV/21/821/PCTV-821-hs.jpg"  />
-                                                </a>
-                                                <div className="card-bottom">
-                                                    <div className="card-title">STAR PLUS</div>
-                                                    <div className="card-subtitle">59 Shows</div>
-                                                </div>
-                                            </div>
-                                        </div>
+
 
                                     </div>
 

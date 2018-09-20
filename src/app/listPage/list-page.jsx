@@ -293,6 +293,10 @@ class ListPage extends Component {
                    </div>
                </div>
                </div>
+               <div className="float-fltr">
+                   <div className="fltrbtn">Sort By : <span className="nrmltxt">Launch Date</span></div>
+                   <div className="fltrbtn">Filter : <span className="nrmltxt">4 Applied</span></div>
+               </div>
            </div>
        )
     }

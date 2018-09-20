@@ -20,6 +20,19 @@
     flex: 0 0 33.333333333333%;
     max-width: 33.333333333333%;
 }
+.chnl-listwrp{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.chnl-listcard{
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+.chnl-listwrp .card-div{
+    margin: 0.5rem !important;
+}
 .listwrp .card-div{
     margin: 0.5rem !important;
 }
@@ -53,11 +66,11 @@
 /*channel card strat*/
 .ch-card{
     width: auto;
-    height: 220px;
+    /*height: 220px;*/
     display: block;
 }
 .card-ch-img {
-    height: 150px;
+    height: 140px;
     width: 100%;
     position: relative;
     display: block;
@@ -171,8 +184,39 @@
     padding: 7px;
     border-radius: 15px;
 }
+.float-fltr {
+    display: flex;
+    justify-content: space-around;
+    background: #eeeee9;
+    box-shadow: 0px -0.5px 2px 0px #3400003b;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 9;
+}
+.fltrbtn {
+    width: 100%;
+    border-radius: 3px !important;
+    background-color: #fde1e1 !important;
+    border: solid 1px var(--coral) !important;
+    font-family: Dosis;
+    font-size: 12px;
+    font-weight: bold !important;
+    color: var(--coral) !important;
+    padding: 12px 12px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 8px;
+}
+.fltrbtn .nrmltxt{
+    font-weight: 400;
+}
 @media (min-width: 320px) and (max-width: 767.98px) {
     .listcard{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .chnl-listcard{
         flex: 0 0 50%;
         max-width: 50%;
     }
@@ -197,13 +241,21 @@
         height: 14px !important;
     }
     .ch-card{
-        height: 125px;
+        /*height: 125px;*/
     }
     .card-ch-img {
-        height: 72px;
+        height: 82px;
     }
     .card-ch-img img{
         padding: 10px;
+    }
+    .ch-card .card-title{
+        line-height: 13px;
+        font-size: 10px;
+    }
+    .ch-card .card-subtitle{
+        margin-top: 3px;
+        line-height: 13px;
     }
     .ryt-snippet{
         padding: 8px;
@@ -228,4 +280,10 @@
         padding: 0px;
     }
 
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .chnl-listcard{
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
 }
