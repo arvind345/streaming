@@ -2433,7 +2433,9 @@ body {
     font-family: 'Dosis';
     font-weight: 500;
     flex: 4;
-    margin-left: 10px; }
+    margin-left: 10px;
+    border: none;
+}
 
 .as-input:focus {
     outline: none; }

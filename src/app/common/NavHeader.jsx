@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { NavLink } from "react-router-dom";
+import {NavLink, Route, Switch} from "react-router-dom";
 import navicon from '../../assets/images/nav-icn.svg';
 import bellIcn from '../../assets/images/bell-icn.svg';
 import searchIcn from '../../assets/images/search-icn.svg';
@@ -7,6 +7,7 @@ import userIcn from '../../assets/images/user-icn.svg';
 import arrowIcn from '../../assets/images/arrow-icn.svg';
 import searchDIcn from '../../assets/images/search-d-icn.svg';
 import $ from "jquery";
+import ChannelListPage from "../listPage/channel-list-page";
 
 
 class NavHeader extends Component {
@@ -133,7 +134,8 @@ class NavHeader extends Component {
             <NavLink to="/cast" className="button"> Cast</NavLink> |
             <NavLink to="/cast-detail" className="button"> Cast Detail</NavLink> |
             <NavLink to="/list-page" className="button"> List </NavLink> |
-            <NavLink to="/channel-list-page" className="button"> Channel List </NavLink>
+            <NavLink to="/channel-list-page" className="button"> Channel List </NavLink> |
+            <NavLink to="/genres" className="button"> Genres </NavLink>
 
         </div>
 
