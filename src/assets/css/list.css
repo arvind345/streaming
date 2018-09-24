@@ -211,6 +211,10 @@
 .fltrbtn .nrmltxt{
     font-weight: 400;
 }
+.list-title{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
 @media (min-width: 320px) and (max-width: 767.98px) {
     .listcard{
         flex: 0 0 50%;
@@ -278,6 +282,10 @@
     .provider-filter-wrp li img{
         border-radius: 8px;
         padding: 0px;
+    }
+    .list-title{
+        font-size: 12px;
+        margin-bottom: 5px;
     }
 
 }

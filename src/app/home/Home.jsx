@@ -4,7 +4,6 @@ import $ from "jquery";
 import tvIcn from '../../assets/images/tv-icn.svg';
 import movieIcn from '../../assets/images/movie-icn.svg';
 import { DatePicker } from 'antd';
-import 'antd/dist/antd.css';
 import { Carousel } from 'antd';
 import { settings1 } from '../components/carouselSetting';
 

@@ -12,7 +12,7 @@ class ChannelListPage extends Component {
                         <div className="row no-gutters">
                             <div className="col-12 ">
                                 <div className="padd">
-                                    <div className="card-header mt-2">Channels</div>
+                                    <div className="card-header mt-2 list-title">Channels</div>
                                     <div className="clearfix"></div>
                                     <div className="chnl-listwrp">
                                         <div className="chnl-listcard">

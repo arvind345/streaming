@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import 'antd/dist/antd.css';
 import NavHeader from './app/common/NavHeader';
 import Footer from './app/common/Footer';
 import Login from './app/common/Login';
