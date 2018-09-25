@@ -35,7 +35,7 @@ ol,
 ul,
 dl {
     margin-top: 0;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;list-style: none; }
 
 ol ol,
 ul ul,
@@ -406,7 +406,9 @@ h6,
 .form-inline {
     display: flex;
     flex-flow: row wrap;
-    align-items: center; }
+    align-items: center;
+    position: relative;
+}
 
 /* end navbar */
 /* Search bar */
@@ -1729,22 +1731,21 @@ body {
     height: 100px; }
 
 .home-search-input {
-    width: 90%;
+    width: 920px;
     background: var(--white);
     height: 55px;
     padding: 9px 15px;
-    text-align: center;
     color: var(--black);
     font-family: "Dosis", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     border-radius: 4px;
     margin: auto;
     text-transform: uppercase;
     margin-top: 15px;
-    max-width: 400px;
-    border: 5px solid rgba(0, 0, 0, 0.5);
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box; }
+    background-clip: padding-box;
+    border: solid 3px #ccccccad;
+    font-size: 17px;
+}
 
 .home-search-title {
     font-family: "Dosis", sans-serif;
@@ -2441,7 +2442,20 @@ body {
 
 .as-input:focus {
     outline: none; }
-
+.search-title .as-info1
+{
+    padding: 10px 5px;
+    background: var(--white);
+    text-transform: uppercase;
+    font-family: Dosis;
+    font-weight: 600;
+}
+a.trending {
+    font-size: 12px;
+    color: #666;
+    font-weight: 500;
+    font-family: Muli;
+}
 .crossbtn {
     width: 17px;
     height: 17px;
@@ -2472,10 +2486,15 @@ body {
     background: #ffffff;
     max-width: 100%;
     flex: 0 0 100%; }
-
+.auto_sugg_ul li:hover
+{
+    background: #f7f7f7;
+}
 .auto_sugg_ul li a {
     display: flex; }
-
+.auto_sugg_ul li a:hover{
+    text-decoration: none;
+}
 .as-img {
     flex: 1;
     position: relative;
@@ -2506,6 +2525,43 @@ body {
     font-size: 10px;
     color: #999999;
     font-weight: 400; }
+
+/* End autosuggest */
+
+/* Desktop autosuggest */
+.d-search-screen {
+    position: absolute;
+    z-index: 9999;
+    width: 258px;
+    top: 34px;
+    background: #eee;
+    height: 100%;
+    right: 0;
+    display: none;
+}
+.d-search-screen .auto_sugg_ul{
+    margin:0;
+    list-style: none;
+}
+.center-search-screen
+{
+    display: block;
+    width: 915px;
+    left: 0;
+    text-align: left;
+    right: 0px;
+    margin: auto;
+    top: 102px;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 0 3px #ccc;
+    display: none;
+}
+.center-search-screen .auto_sugg_ul{margin: 0}
+.center-search-screen ul li .as-img{flex: none;}
+/* End Desktop autosuggest */
+
+
 .folow-btn .btn{
     font-size: 12px !important;
     padding: 12px 10px;

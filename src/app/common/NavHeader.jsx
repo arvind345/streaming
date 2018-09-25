@@ -6,6 +6,8 @@ import searchIcn from '../../assets/images/search-icn.svg';
 import userIcn from '../../assets/images/user-icn.svg';
 import arrowIcn from '../../assets/images/arrow-icn.svg';
 import searchDIcn from '../../assets/images/search-d-icn.svg';
+import trending from '../../assets/images/trending.svg';
+
 import $ from "jquery";
 import ChannelListPage from "../listPage/channel-list-page";
 
@@ -50,6 +52,16 @@ class NavHeader extends Component {
                             <div className="crossbtn"></div>
                         </div>
                         <ul className="auto_sugg_ul">
+                            <div className="search-title">
+                                <div className="as-info1">
+                                    <svg height="11" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><polyline fill="none" points="23 6 13.5 15.5 8.5 10.5 1 18" stroke="#ff3053" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline><polyline fill="none" points="17 6 23 6 23 12" stroke="#ff3053" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline></svg>
+                                    Trending Searches
+                                </div>
+                            </div>
+                            <li><a href="#" className="trending">Ye Rishta kya kehlata hai</a></li>
+                            <li><a href="#" className="trending">Ishqbaz</a></li>
+                            <li><a href="#" className="trending">Kasauti Zingdi Ki</a></li>
+                            <li><a href="#" className="trending">Krishna chali Landon</a></li>
                             <li>
                                 <a href="#">
                                     <div className="as-img"><img src="https://www.91-cdn.com/upcomingg-img/images/images/000/012/413/original/poster.jpg?1533817420" /></div>
@@ -96,6 +108,46 @@ class NavHeader extends Component {
                                     <input type="text" placeholder="Search" required="" maxLength="512" className="SearchBox-input" />
                                     <img src={searchDIcn} alt="search" className="search-icn-textbox" />
                                 </div>
+
+                                <div className="d-search-screen">
+                                    <ul className="auto_sugg_ul">
+                                        <div className="search-title">
+                                            <div className="as-info1">
+                                                <svg height="11" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><polyline fill="none" points="23 6 13.5 15.5 8.5 10.5 1 18" stroke="#ff3053" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline><polyline fill="none" points="17 6 23 6 23 12" stroke="#ff3053" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline></svg>
+                                                Trending Searches
+                                            </div>
+                                        </div>
+                                        <li><a href="#" className="trending">Ye Rishta kya kehlata hai</a></li>
+                                        <li><a href="#" className="trending">Ishqbaz</a></li>
+                                        <li><a href="#" className="trending">Kasauti Zingdi Ki</a></li>
+                                        <li><a href="#" className="trending">Krishna chali Landon</a></li>
+                                        <li><a href="#">
+                                            <div className="as-img"><img  src="https://www.91-cdn.com/upcomingg-img/images/images/000/012/413/original/poster.jpg?1533817420"/>
+                                            </div>
+                                            <div className="as-list">
+                                                <div className="as-info1">Padmavat</div>
+                                                <div className="as-info2">2018 | Movie | Hindi</div>
+                                            </div>
+                                        </a></li>
+                                        <li><a href="#">
+                                            <div className="as-img"><img src="https://www.91-cdn.com/upcomingg-img/images/images/000/012/413/original/poster.jpg?1533817420"/>
+                                            </div>
+                                            <div className="as-list">
+                                                <div className="as-info1">Padmavat</div>
+                                                <div className="as-info2">2018 | Movie | Hindi</div>
+                                            </div>
+                                        </a></li>
+                                        <li><a href="#">
+                                            <div className="as-img"><img  src="https://www.91-cdn.com/upcomingg-img/images/images/000/012/413/original/poster.jpg?1533817420"/>
+                                            </div>
+                                            <div className="as-list">
+                                                <div className="as-info1">Padmavat</div>
+                                                <div className="as-info2">2018 | Movie | Hindi</div>
+                                            </div>
+                                        </a></li>
+                                    </ul>
+                                </div>
+
                             </form>
                         </div>
                     </div>
