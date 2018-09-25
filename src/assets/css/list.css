@@ -89,7 +89,10 @@
     display: block;
 }
 .card-ch-img img{
-    padding: 15px;
+    padding: 25px;
+}
+.ch-card .card-bottom {
+    padding: 0px 8px 11px 8px;
 }
 .genres-listcard .card-div{
     height: 124px;
@@ -135,6 +138,36 @@
     font-size: 16px;
     font-weight: 400;
 }
+.genres-listcard .card-div.active{
+    border:2px solid #ff3053;
+}
+.genres-listcard .card-div.active:before {
+    content: '';
+    position: absolute;
+    bottom: 9px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    background: #00000069;
+    border-radius: 100%;
+    display: inline-block;
+    z-index: 99;
+    border: 1px solid #fff;
+}
+.genres-listcard .card-div.active:after {
+    content: '';
+    width: 4px;
+    height: 8px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    position: absolute;
+    right: 18px;
+    bottom: 15px;
+    display: inline-block;
+    z-index: 999;
+    transform: rotate(-145deg);
+}
+
 /*filter start*/
 .filtertop {
     border-bottom: 1px solid #dadada;
@@ -271,6 +304,8 @@
 .list-title{
     font-size: 18px;
     margin-bottom: 10px;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 17px;
 }
 @media (min-width: 320px) and (max-width: 767.98px) {
     .listcard{
@@ -308,6 +343,9 @@
     }
     .ch-card{
         /*height: 125px;*/
+    }
+    .ch-card .card-bottom {
+        padding: 3px 5px 11px 5px;
     }
     .card-ch-img {
         height: 82px;
@@ -348,6 +386,8 @@
     .list-title{
         font-size: 12px;
         margin-bottom: 5px;
+        border: none;
+        padding: 0px;
     }
     .genres-listcard .card-div{
         height: 92px;

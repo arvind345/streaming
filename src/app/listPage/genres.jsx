@@ -40,7 +40,7 @@ class Genres extends Component {
                                             </div>
                                         </div>
                                         <div className="genres-listcard">
-                                            <div className="card-div">
+                                            <div className="card-div active">
                                                 <a href="#" className="genres-img img-center">
                                                     <img
                                                         src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/012/550/original/cover.jpg?1533879605"
@@ -76,7 +76,7 @@ class Genres extends Component {
                                             </div>
                                         </div>
                                         <div className="genres-listcard">
-                                            <div className="card-div">
+                                            <div className="card-div active">
                                                 <a href="#" className="genres-img img-center">
                                                     <img
                                                         src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/012/550/original/cover.jpg?1533879605"
