@@ -30,10 +30,23 @@
     flex: 0 0 20%;
     max-width: 20%;
 }
+.genres-listwrp{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.genres-listcard{
+    flex: 0 0 20%;
+    max-width: 20%;
+}
 .chnl-listwrp .card-div{
     margin: 0.5rem !important;
 }
 .listwrp .card-div{
+    margin: 0.5rem !important;
+}
+.genres-listwrp .card-div{
     margin: 0.5rem !important;
 }
 .md-card{
@@ -77,6 +90,50 @@
 }
 .card-ch-img img{
     padding: 15px;
+}
+.genres-listcard .card-div{
+    height: 124px;
+    width: auto;
+    display: block;
+}
+.genres-img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.genres-img img{
+    border-radius: 3px;
+}
+.genres-img:before {
+    content: '';
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    z-index: 9;
+    border-radius: 3px;
+}
+.list-centr-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    position: absolute;
+    z-index: 9;
+}
+.lang-wrp .list-centr-title{
+    font-size: 28px;
+    font-weight: 300;
+}
+.lan-name{
+    font-size: 16px;
+    font-weight: 400;
 }
 /*filter start*/
 .filtertop {
@@ -224,6 +281,11 @@
         flex: 0 0 50%;
         max-width: 50%;
     }
+    .genres-listcard{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
     .md-card {
         /*height: 180px;*/
     }
@@ -287,6 +349,28 @@
         font-size: 12px;
         margin-bottom: 5px;
     }
+    .genres-listcard .card-div{
+        height: 92px;
+    }
+    .list-centr-title {
+        font-size: 14px;
+        font-family: 'Dosis';
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .genres-listwrp .card-div{
+        margin: 0.3rem !important;
+    }
+    .lang-wrp .list-centr-title {
+        font-size: 20px;
+        text-transform: capitalize;
+        font-family: 'Muli';
+    }
+    .lan-name{
+        font-size: 10px;
+        font-family: 'Muli';
+        text-transform: capitalize;
+    }
 
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -294,4 +378,9 @@
         flex: 0 0 33.333%;
         max-width: 33.333%;
     }
+    .genres-listcard{
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
 }
+

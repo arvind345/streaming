@@ -3,7 +3,7 @@ import '../../assets/css/common.css';
 import '../../assets/css/list.css';
 
 
-class Genres extends Component {
+class Language extends Component {
     render() {
         return(
             <div>
@@ -12,9 +12,9 @@ class Genres extends Component {
                         <div className="row no-gutters">
                             <div className="col-12 ">
                                 <div className="padd">
-                                    <div className="card-header mt-2 list-title">Genres</div>
+                                    <div className="card-header mt-2 list-title">Language</div>
                                     <div className="clearfix"></div>
-                                    <div className="genres-listwrp">
+                                    <div className="genres-listwrp lang-wrp">
                                         <div className="genres-listcard">
                                             <div className="card-div">
                                                 <a href="#" className="genres-img img-center">
@@ -22,7 +22,23 @@ class Genres extends Component {
                                                         src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/012/550/original/cover.jpg?1533879605"
                                                         className="img-cover" width="205px" height="124px"/>
                                                     <div className="list-centr-title">
-                                                        Romance
+                                                        हिंदी
+                                                        <div className="lan-name">Hindi</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+
+
+                                        <div className="genres-listcard">
+                                            <div className="card-div">
+                                                <a href="#" className="genres-img img-center">
+                                                    <img
+                                                        src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/012/550/original/cover.jpg?1533879605"
+                                                        className="img-cover" width="205px" height="124px"/>
+                                                    <div className="list-centr-title">
+                                                        বাঙালি
+                                                        <div className="lan-name">Bengali</div>
                                                     </div>
                                                 </a>
                                             </div>
@@ -34,7 +50,8 @@ class Genres extends Component {
                                                         src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/012/550/original/cover.jpg?1533879605"
                                                         className="img-cover" width="205px" height="124px"/>
                                                     <div className="list-centr-title">
-                                                        Drama
+                                                        తెలుగు
+                                                        <div className="lan-name">Telugu</div>
                                                     </div>
                                                 </a>
                                             </div>
@@ -46,7 +63,8 @@ class Genres extends Component {
                                                         src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/012/550/original/cover.jpg?1533879605"
                                                         className="img-cover" width="205px" height="124px"/>
                                                     <div className="list-centr-title">
-                                                        Family
+                                                        മലയാളം
+                                                        <div className="lan-name">Malyalam</div>
                                                     </div>
                                                 </a>
                                             </div>
@@ -58,7 +76,8 @@ class Genres extends Component {
                                                         src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/012/550/original/cover.jpg?1533879605"
                                                         className="img-cover" width="205px" height="124px"/>
                                                     <div className="list-centr-title">
-                                                        Reality
+                                                        தமிழ்
+                                                        <div className="lan-name">Tamil</div>
                                                     </div>
                                                 </a>
                                             </div>
@@ -70,19 +89,7 @@ class Genres extends Component {
                                                         src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/012/550/original/cover.jpg?1533879605"
                                                         className="img-cover" width="205px" height="124px"/>
                                                     <div className="list-centr-title">
-                                                        Mythology
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div className="genres-listcard">
-                                            <div className="card-div">
-                                                <a href="#" className="genres-img img-center">
-                                                    <img
-                                                        src="https://www.91-cdn.com/upcomingg-img/tr:h-215,w-375,q-100,fo-auto/images/images/000/012/550/original/cover.jpg?1533879605"
-                                                        className="img-cover" width="205px" height="124px"/>
-                                                    <div className="list-centr-title">
-                                                        Crime
+                                                        English
                                                     </div>
                                                 </a>
                                             </div>
@@ -107,4 +114,4 @@ class Genres extends Component {
     }
 }
 
-export default Genres;
+export default Language;
