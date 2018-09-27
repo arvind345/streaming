@@ -14,6 +14,7 @@ import ListPage from './app/listPage/list-page';
 import ChannelListPage from './app/listPage/channel-list-page';
 import Genres from './app/listPage/genres';
 import Language from './app/listPage/language';
+import Profile from './app/common/profile';
 
 //import './App.scss';
 import './assets/css/common.css';
@@ -39,6 +40,7 @@ class App extends Component {
                     <Route path='/channel-list-page'  component={ChannelListPage} />
                     <Route path='/genres'  component={Genres} />
                     <Route path='/language'  component={Language} />
+                    <Route path='/profile'  component={Profile} />
                 </Switch>
                 <Footer/>
             </div>
