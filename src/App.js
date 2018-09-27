@@ -15,6 +15,7 @@ import ChannelListPage from './app/listPage/channel-list-page';
 import ChennalDetail from './app/detailPage/chennal-detail';
 import Genres from './app/listPage/genres';
 import Language from './app/listPage/language';
+import Profile from './app/common/profile';
 
 //import './App.scss';
 import './assets/css/common.css';
@@ -41,6 +42,7 @@ class App extends Component {
                     <Route path='/genres'  component={Genres} />
                     <Route path='/language'  component={Language} />
                     <Route path='/ChennalDetail'  component={ChennalDetail} />
+                    <Route path='/profile'  component={Profile} />
                 </Switch>
                 <Footer/>
             </div>
