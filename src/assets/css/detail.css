@@ -253,6 +253,20 @@ display: inline-block;
     text-align: center;
     margin-top: 4px;
 }
+.channel-wrap{
+    width: 130px !important;
+    height: 90px !important;
+}
+.channel-wrap img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.bg-schedule
+{
+    background: var(--bg-light-grey);
+    margin: 5px 0;
+}
 .detail-left-wrp{
     width: 60px;
     height: 80px;
@@ -494,6 +508,41 @@ margin-top:20px;
     overflow: hidden;
 }
 
+/* chennal Detail */
+.ch-lft-img-box {
+    width: 172px;
+    height: 112px;
+    overflow: hidden;
+    position: relative;
+}
+.ch-lft-img-box img
+{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 3px 0 0px 3px;
+}
+.chnl-dt-row {
+    display: flex;
+    margin: 10px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+}
+.ch-ryt-box {
+    margin: 5px 0 0 10px;
+    flex: 2;
+}
+.ch-ryt-box .detail-filter{
+    font-size: 12px;
+}
+.ch-eps-time {
+    color: var(--greyish-brown);
+    font-weight: 600;
+}
+.ch-followers {
+    color: var(--greyish-brown);
+}
+/* End chennal Detail */
 
 @media (min-width: 320px) and (max-width: 991.98px) {
     .detail-filter {
@@ -645,4 +694,19 @@ margin-top:20px;
     .movie-filter-info .main-panel-outr{
         margin: 0px 8px 14px 0px;
     }
+    .ch-lft-img-box{
+        width: 90px;
+        height: 50px;
+    }
+    .chnl-dt-row{
+        box-shadow: none;
+        border-bottom: solid 1px #f2f2f2;
+        padding: 0 0 10px;
+    }
+}
+@media (min-width: 976px) and (max-width:1200px)  {
+    .right-img-box {
+        float: left;
+        width: 113px;
+     }
 }

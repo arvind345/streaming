@@ -178,7 +178,10 @@ h6,
     margin-top: -11px;
     display: inline-flex;
 }
-
+.width-80pc
+{
+    width: 80%;
+}
 .container {
     width: 100%;
     padding-right: 15px;
@@ -1761,14 +1764,13 @@ body {
 .no-overflow{
     overflow: visible;
 }
-
+.overflow{
+    overflow: hidden;
+}
 .card-header {
     font-weight: 700;
 }
-.card-wrapper{
-    /*overflow: hidden;*/
-    margin-right: -8px;
-}
+
 .card-header{
     font-size: 14px;
     font-family: "Dosis", sans-serif;
@@ -2038,7 +2040,8 @@ body {
     background: var(--white);
     margin: 15px 0;
     border-radius: 3px;
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12); }
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12);
+}
 .card-component-body {
     font-family: ProximaNova, "Lato", sans-serif;
     font-size: 0.75em;
@@ -2132,7 +2135,9 @@ body {
 
 .read-more {
     color: var(--pinkish-coral);
-    font-size: inherit; }
+    font-size: inherit;
+    cursor: pointer;}
+
 
 /*Login/ Signup*/
 .btn-cross {
@@ -2640,6 +2645,11 @@ a.trending {
     }
     .slick-arrow{
         display: none !important;
+    }
+    .chnl-dt-row{
+        box-shadow: none;
+        border-bottom: solid 1px #f2f2f2;
+        padding: 0 0 10px;
     }
 
 }
