@@ -2782,3 +2782,48 @@ a.trending {
 
 
 /*.slide-1{height: 200px}*/
+.profile-wrap{
+}
+
+
+@media (min-width: 991px){
+    .profile-wrap{
+        background: #f7f7f7;
+    }
+    .prof-head-wrap {
+        background: none !Important;
+        border-bottom: 1px solid #dadada;
+    }
+    .prof-head {
+        margin-top: 16px !important;
+        flex-flow: column;
+        text-align: center;
+    }
+    .prof-img{
+        margin: auto !important;
+        width: 72px !important;
+        height: 72px !important;
+    }
+    .prof-detail p {
+        font-size: 18px !important;
+        color: #454545 !important;
+        line-height: 17px !important;
+        margin-top: 15px !important;
+    }
+    .prof-btm-wrap{
+        padding: 0px 16px;
+    }
+    .prof-btm-wrap p{
+        color: #343432;
+        font-size: 14px;
+        margin: 0px;
+        margin-top: 15px;
+        line-height: 17px;
+    }
+    .no-desktop-card {
+        background: none;
+        box-shadow: none;
+        padding: 0px;
+        margin-bottom: 15px;
+    }
+}

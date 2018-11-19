@@ -10,27 +10,31 @@ class Profile extends Component {
     render() {
         return(
             <div>
-                <div className="prof-head-wrap d-mobile-block">
-                    <div className="prof-head-top"><i class="back-arrow"></i>My Profile</div>
-                    <div className="prof-head">
-                        <div className="prof-img"><img src="" /></div>
-                        <div className="prof-detail">
-                            <p>Anshul Bnasal</p>
-                            <p>Anshul@gmail.com</p>
-                        </div>
-                    </div>
-                </div>
+
                 <div className="container prof-container">
                     <div className="no-m-card-component card-component">
                         <div className="row no-gutters">
-                            <div className="col-cs-12 col-cssm-12 col-cslg-3 border-right d-desktop-block">
-                                <div className="left-snippet">
-
+                            <div className="col-cs-12 col-cssm-12 col-cslg-3 border-right profile-wrap">
+                                <div className="left-snippet  p-0">
+                                    <div className="prof-head-wrap">
+                                        <div className="prof-head-top d-mobile-block"><i className="back-arrow"></i>My Profile</div>
+                                        <div className="prof-head">
+                                            <div className="prof-img"><img src=""/></div>
+                                            <div className="prof-detail">
+                                                <p>Anshul Bnasal</p>
+                                                <p>Anshul@gmail.com</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="prof-btm-wrap d-desktop-block">
+                                        <p>Edit Profile</p>
+                                        <p>Logout</p>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-cs-12 col-cssm-12 col-cslg-9">
                                 <div className="ryt-snippet">
-                                    <div className="card-component padd">
+                                    <div className="card-component padd no-desktop-card">
                                         <span className="card-header mt-2">MY SUBSCRIPTIONS</span>
                                         <div className="subs-wrap">
                                             <div className="subs-box active">
