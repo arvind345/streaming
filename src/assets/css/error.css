@@ -1,0 +1,80 @@
+body{
+    background: #f1f2f6;
+}
+.error_page{
+    text-align: center;
+    margin: 30px auto;
+}
+.error_titl{
+    font-family: 'Dosis', sans-serif;
+    font-size: 220px;
+    color: #a19fad;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.error_txt{
+    color: #a19fad;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 45px;
+}
+.error_btn{
+    color: #ea4a4c;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.error_arw{
+    vertical-align: middle;
+    font-size: 26px;
+    font-weight: 400;
+}
+.error_img{
+    height: 92px;
+}
+.error_img{
+    width: 100%;
+    height: 92px;
+}
+.error_img img{
+    width: 100%;
+    max-height: 100%;
+}
+.error_txt2{
+    color: #a19fad;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+@media (min-width: 320px) and (max-width: 767.98px) {
+    .error_page{
+        margin: 30px auto 100px;
+        width:100%;
+    }
+    .error_titl{
+        font-size: 110px;
+        margin-bottom: 30px;
+    }
+    .error_txt{
+        color: #a19fad;
+        font-size: 12px;
+        margin-top: 10px;
+        padding: 0px 10px;
+    }
+    .error_btn{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .error_arw{
+        font-size: 12px;
+    }
+    .error_img{
+        width: 100%;
+        height: 46px;
+    }
+    .error_txt2{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+}

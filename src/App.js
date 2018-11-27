@@ -16,6 +16,7 @@ import ChennalDetail from './app/detailPage/chennal-detail';
 import Genres from './app/listPage/genres';
 import Language from './app/listPage/language';
 import Profile from './app/common/profile';
+import Error from './app/error';
 
 //import './App.scss';
 import './assets/css/common.css';
@@ -43,6 +44,7 @@ class App extends Component {
                     <Route path='/language'  component={Language} />
                     <Route path='/ChennalDetail'  component={ChennalDetail} />
                     <Route path='/profile'  component={Profile} />
+                    <Route path='/error'  component={Error} />
                 </Switch>
                 <Footer/>
             </div>
