@@ -192,6 +192,7 @@ class NavHeader extends Component {
             <NavLink to="/ChennalDetail" className="button"> Chennal Details </NavLink>
             <NavLink to="/language" className="button"> Language </NavLink> |
             <NavLink to="/profile" className="button"> Profile </NavLink>
+            <NavLink to="/error" className="button"> Error </NavLink>
 
         </div>
 

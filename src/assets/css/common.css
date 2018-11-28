@@ -2600,6 +2600,13 @@ a.trending {
 .pofile-card .lg-card{
     height: auto;
 }
+.fltrwrap .ant-checkbox-checked .ant-checkbox-inner, .fltrwrap .ant-checkbox-indeterminate .ant-checkbox-inner {
+    background-color: var(--coral) !important;
+    border-color: var(--coral)  !important;
+}
+.fltrwrap .ant-checkbox-checked:after{
+    border-color: var(--coral)  !important;
+}
 
 @media (min-width: 320px) and (max-width: 767.98px) {
     body {

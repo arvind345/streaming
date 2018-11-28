@@ -5,7 +5,51 @@ import PhotoSwipeUI_Default from 'photoswipe/dist/photoswipe-ui-default';
 import folowers from '../../assets/images/followers.svg';
 import calander from '../../assets/images/calander.svg';
 import plusIcn from '../../assets/images/plus.svg';
+import { Collapse } from 'antd';
+const Panel = Collapse.Panel;
+const text = `
+  A dog is a type of domesticated animal.
+  Known for its loyalty and faithfulness,
+  it can be found as a welcome guest in many households across the world.
+`;
+const paneltitle = <div className="detail-panel-title">
+                                        <span>
+                                            <span className="d-episodes"> E 392 </span><span className="spacer">|</span>00:29:23 Mins<span className="spacer">|</span>06 June
+                                        </span>
+    <div className="coral-arrow pull-right"></div>
+</div>;
+    const detailPanelInfoWrap = <div className="detail-panel-info-wrap">
+        <div className="detail-panel-info">
+            <p>Ishqbaaaz is a Hindi drama aired on StarPlus. The story is about three brothers - Shivaay, Omkara and Rudra -- who share an unbreakable bond despite their dysfunctional family. Watch all the latest episodes of Ishqbaaaz on Hotstar.</p>
+        </div>
+        <div className="panel-filters">
+            <div className="panel-filter-head">
+                <span className="fltrs">Filters :</span>
+                <span className="fltr-tab active">Best Price</span>
+                <span className="fltr-tab">SD</span>
+                <span className="fltr-tab">HD</span>
+                <span className="fltr-tab">4K</span>
+            </div>
+            <div className="panel-filter-info">
+                <div className="panel-filter-info-row">
+                    <div className="panel-filter-strip">Stream</div>
+                    <div className="panel-chnl-wrp">
+                        <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
+                        <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
+                        <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
+                        <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
+                        <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
+                        <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
+                        <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
+                        <div className="panel-chnl"><img src="https://images.justwatch.com/icon/4233120/s100/hotstar" /></div>
 
+
+                    </div>
+                    <div className="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 class Details extends Component {
     render() {
@@ -101,6 +145,18 @@ class Details extends Component {
                 {/*latest episode start*/}
                 <div className="container">
                     <div className="card-component padd">
+
+                        <Collapse className="custmAccrdian" accordion bordered={false}>
+                            <Panel className="detail-panel-row" header={paneltitle} key="1" bordered={false}  showArrow={false}>
+                                <div>{detailPanelInfoWrap}</div>
+                            </Panel>
+                            <Panel className="detail-panel-row" header={paneltitle} key="2" bordered={false}  showArrow={false}>
+                                <div>{detailPanelInfoWrap}</div>
+                            </Panel>
+                               <Panel className="detail-panel-row" header={paneltitle} key="3" bordered={false}  showArrow={false}>
+                                   <div>{detailPanelInfoWrap}</div>                                                                     
+                               </Panel>
+                        </Collapse>
 
                         {/*  card wrapper */}
                         <div className="">
